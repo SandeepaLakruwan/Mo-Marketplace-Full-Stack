@@ -1,0 +1,71 @@
+services:
+  # ─── PostgreSQL Database ───
+  postgres:
+    image: postgres:16-alpine          # Upgraded to newer stable version
+    container_name: mo_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mo_marketplace
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d mo_marketplace"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # ─── NestJS Backend ───
+  api:
+    build:
+      context: ./mo-marketplace-api
+      dockerfile: Dockerfile
+      target: production
+    container_name: mo_api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: password
+      DB_NAME: mo_marketplace
+      JWT_SECRET: your_super_secret_jwt_key_here_change_in_production
+      JWT_EXPIRES_IN: 7d
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]  # Better than wget
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # ─── React Frontend ───
+  web:
+    build:
+      context: ./mo-marketplace-web
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: http://localhost:3000   # Baked at build time (change for production domain)
+    container_name: mo_web
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "80:80"
+
+volumes:
+  postgres_data:
+
+networks:
+  default:
+    name: mo_network
