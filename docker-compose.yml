@@ -1,7 +1,7 @@
 services:
   # ─── PostgreSQL Database ───
   postgres:
-    image: postgres:16-alpine          # Upgraded to newer stable version
+    image: postgres:16-alpine
     container_name: mo_postgres
     restart: unless-stopped
     environment:
