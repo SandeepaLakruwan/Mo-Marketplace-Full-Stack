@@ -54,10 +54,5 @@ See full docs at http://localhost:3000/api (Swagger)
 | PATCH | /variants/:id/stock | Yes | Update stock |
 
 ## Testing
-```bash
-# Postman — import collection
-newman run postman_collection.json
-
-# JMeter load test
-cd jmeter && ./run_tests.sh
-```
+- You can test with Swagger: http://localhost:3000/api
+- Use Load Test Results/Load Test.jmx for test with JMeter
