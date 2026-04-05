@@ -1,0 +1,1501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1775409555944,102,POST Login,200,OK,Load Test 1-1,text,true,,579,242,3,3,http://localhost:3000/auth/login,98,0,20
+1775409555945,102,POST Login,200,OK,Load Test 1-2,text,true,,579,242,3,3,http://localhost:3000/auth/login,98,0,20
+1775409556073,10,GET Products,200,OK,Load Test 1-1,text,true,,5635,140,3,3,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409556073,10,GET Products,200,OK,Load Test 1-2,text,true,,5635,140,3,3,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409556084,5,POST Create Product,200,OK,Load Test 1-2,text,true,,5635,482,3,3,http://localhost:3000/products,5,0,0
+1775409556084,6,POST Create Product,200,OK,Load Test 1-1,text,true,,5635,482,3,3,http://localhost:3000/products,6,0,0
+1775409556038,61,POST Login,200,OK,Load Test 1-3,text,true,,579,242,3,3,http://localhost:3000/auth/login,61,0,1
+1775409556100,5,GET Products,200,OK,Load Test 1-3,text,true,,5635,140,3,3,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556105,5,POST Create Product,200,OK,Load Test 1-3,text,true,,5635,482,3,3,http://localhost:3000/products,5,0,0
+1775409556090,61,POST Login,200,OK,Load Test 1-1,text,true,,579,242,4,4,http://localhost:3000/auth/login,61,0,0
+1775409556090,62,POST Login,200,OK,Load Test 1-2,text,true,,579,242,4,4,http://localhost:3000/auth/login,62,0,0
+1775409556151,6,GET Products,200,OK,Load Test 1-1,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556152,5,GET Products,200,OK,Load Test 1-2,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556157,6,POST Create Product,200,OK,Load Test 1-1,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556158,5,POST Create Product,200,OK,Load Test 1-2,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409556111,62,POST Login,200,OK,Load Test 1-3,text,true,,579,242,4,4,http://localhost:3000/auth/login,62,0,0
+1775409556173,6,GET Products,200,OK,Load Test 1-3,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409556180,5,POST Create Product,200,OK,Load Test 1-3,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409556137,64,POST Login,200,OK,Load Test 1-4,text,true,,579,242,4,4,http://localhost:3000/auth/login,64,0,1
+1775409556202,9,GET Products,200,OK,Load Test 1-4,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409556211,6,POST Create Product,200,OK,Load Test 1-4,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556164,63,POST Login,200,OK,Load Test 1-1,text,true,,579,242,4,4,http://localhost:3000/auth/login,63,0,0
+1775409556164,63,POST Login,200,OK,Load Test 1-2,text,true,,579,242,4,4,http://localhost:3000/auth/login,63,0,0
+1775409556227,5,GET Products,200,OK,Load Test 1-1,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556228,5,GET Products,200,OK,Load Test 1-2,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556233,6,POST Create Product,200,OK,Load Test 1-2,text,true,,5635,482,5,5,http://localhost:3000/products,5,0,0
+1775409556233,7,POST Create Product,200,OK,Load Test 1-1,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556185,65,POST Login,200,OK,Load Test 1-3,text,true,,579,242,5,5,http://localhost:3000/auth/login,64,0,0
+1775409556250,5,GET Products,200,OK,Load Test 1-3,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556256,5,POST Create Product,200,OK,Load Test 1-3,text,true,,5635,482,5,5,http://localhost:3000/products,5,0,0
+1775409556218,62,POST Login,200,OK,Load Test 1-4,text,true,,579,242,5,5,http://localhost:3000/auth/login,61,0,0
+1775409556280,6,GET Products,200,OK,Load Test 1-4,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556286,4,POST Create Product,200,OK,Load Test 1-4,text,true,,5635,482,5,5,http://localhost:3000/products,4,0,0
+1775409556236,66,POST Login,200,OK,Load Test 1-5,text,true,,579,242,5,5,http://localhost:3000/auth/login,66,0,2
+1775409556239,64,POST Login,200,OK,Load Test 1-2,text,true,,579,242,5,5,http://localhost:3000/auth/login,64,0,0
+1775409556303,5,GET Products,200,OK,Load Test 1-5,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556240,69,POST Login,200,OK,Load Test 1-1,text,true,,579,242,5,5,http://localhost:3000/auth/login,69,0,0
+1775409556304,5,GET Products,200,OK,Load Test 1-2,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556309,9,GET Products,200,OK,Load Test 1-1,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409556309,12,POST Create Product,200,OK,Load Test 1-5,text,true,,5635,482,5,5,http://localhost:3000/products,12,0,0
+1775409556319,7,POST Create Product,200,OK,Load Test 1-1,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556310,28,POST Create Product,200,OK,Load Test 1-2,text,true,,5635,482,6,6,http://localhost:3000/products,28,0,0
+1775409556261,77,POST Login,200,OK,Load Test 1-3,text,true,,579,242,6,6,http://localhost:3000/auth/login,77,0,0
+1775409556339,7,GET Products,200,OK,Load Test 1-3,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556347,4,POST Create Product,200,OK,Load Test 1-3,text,true,,5635,482,6,6,http://localhost:3000/products,4,0,0
+1775409556291,75,POST Login,200,OK,Load Test 1-4,text,true,,579,242,6,6,http://localhost:3000/auth/login,75,0,0
+1775409556367,5,GET Products,200,OK,Load Test 1-4,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556372,6,POST Create Product,200,OK,Load Test 1-4,text,true,,5635,482,6,6,http://localhost:3000/products,6,0,0
+1775409556321,66,POST Login,200,OK,Load Test 1-5,text,true,,579,242,6,6,http://localhost:3000/auth/login,66,0,0
+1775409556326,66,POST Login,200,OK,Load Test 1-1,text,true,,579,242,6,6,http://localhost:3000/auth/login,66,0,0
+1775409556388,7,GET Products,200,OK,Load Test 1-5,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556393,5,GET Products,200,OK,Load Test 1-1,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556395,5,POST Create Product,200,OK,Load Test 1-5,text,true,,5635,482,6,6,http://localhost:3000/products,5,0,0
+1775409556399,4,POST Create Product,200,OK,Load Test 1-1,text,true,,5635,482,6,6,http://localhost:3000/products,4,0,0
+1775409556339,68,POST Login,200,OK,Load Test 1-2,text,true,,579,242,5,5,http://localhost:3000/auth/login,68,0,0
+1775409556407,5,GET Products,200,OK,Load Test 1-2,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556413,5,POST Create Product,200,OK,Load Test 1-2,text,true,,5635,482,5,5,http://localhost:3000/products,5,0,0
+1775409556337,93,POST Login,200,OK,Load Test 1-6,text,true,,579,242,4,4,http://localhost:3000/auth/login,93,0,3
+1775409556431,5,GET Products,200,OK,Load Test 1-6,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556437,5,POST Create Product,200,OK,Load Test 1-6,text,true,,5635,482,5,5,http://localhost:3000/products,5,0,0
+1775409556352,97,POST Login,200,OK,Load Test 1-3,text,true,,579,242,5,5,http://localhost:3000/auth/login,97,0,0
+1775409556449,6,GET Products,200,OK,Load Test 1-3,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409556379,76,POST Login,200,OK,Load Test 1-4,text,true,,579,242,5,5,http://localhost:3000/auth/login,76,0,0
+1775409556455,5,GET Products,200,OK,Load Test 1-4,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556455,7,POST Create Product,200,OK,Load Test 1-3,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556461,6,POST Create Product,200,OK,Load Test 1-4,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556401,66,POST Login,200,OK,Load Test 1-5,text,true,,579,242,4,4,http://localhost:3000/auth/login,66,0,0
+1775409556468,5,GET Products,200,OK,Load Test 1-5,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556474,5,POST Create Product,200,OK,Load Test 1-5,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409556437,64,POST Login,200,OK,Load Test 1-7,text,true,,579,242,4,4,http://localhost:3000/auth/login,64,0,1
+1775409556502,5,GET Products,200,OK,Load Test 1-7,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556443,64,POST Login,200,OK,Load Test 1-6,text,true,,579,242,4,4,http://localhost:3000/auth/login,64,0,0
+1775409556507,6,POST Create Product,200,OK,Load Test 1-7,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556508,6,GET Products,200,OK,Load Test 1-6,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409556514,4,POST Create Product,200,OK,Load Test 1-6,text,true,,5635,482,4,4,http://localhost:3000/products,4,0,0
+1775409556468,62,POST Login,200,OK,Load Test 1-4,text,true,,579,242,4,4,http://localhost:3000/auth/login,62,0,0
+1775409556531,5,GET Products,200,OK,Load Test 1-4,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556537,5,POST Create Product,200,OK,Load Test 1-4,text,true,,5635,482,5,5,http://localhost:3000/products,5,0,0
+1775409556479,65,POST Login,200,OK,Load Test 1-5,text,true,,579,242,4,4,http://localhost:3000/auth/login,64,0,0
+1775409556544,5,GET Products,200,OK,Load Test 1-5,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556550,4,POST Create Product,200,OK,Load Test 1-5,text,true,,5635,482,4,4,http://localhost:3000/products,4,0,0
+1775409556513,67,POST Login,200,OK,Load Test 1-7,text,true,,579,242,4,4,http://localhost:3000/auth/login,67,0,0
+1775409556519,64,POST Login,200,OK,Load Test 1-6,text,true,,579,242,4,4,http://localhost:3000/auth/login,64,0,0
+1775409556581,7,GET Products,200,OK,Load Test 1-7,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556584,9,GET Products,200,OK,Load Test 1-6,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409556589,7,POST Create Product,200,OK,Load Test 1-7,text,true,,5635,482,4,4,http://localhost:3000/products,7,0,0
+1775409556593,7,POST Create Product,200,OK,Load Test 1-6,text,true,,5635,482,4,4,http://localhost:3000/products,7,0,0
+1775409556536,74,POST Login,200,OK,Load Test 1-8,text,true,,579,242,4,4,http://localhost:3000/auth/login,74,0,1
+1775409556611,6,GET Products,200,OK,Load Test 1-8,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409556618,6,POST Create Product,200,OK,Load Test 1-8,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556555,73,POST Login,200,OK,Load Test 1-5,text,true,,579,242,4,4,http://localhost:3000/auth/login,73,0,0
+1775409556629,5,GET Products,200,OK,Load Test 1-5,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409556635,7,POST Create Product,200,OK,Load Test 1-5,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556601,78,POST Login,200,OK,Load Test 1-6,text,true,,579,242,4,4,http://localhost:3000/auth/login,78,0,0
+1775409556596,84,POST Login,200,OK,Load Test 1-7,text,true,,579,242,4,4,http://localhost:3000/auth/login,84,0,0
+1775409556680,7,GET Products,200,OK,Load Test 1-6,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409556680,8,GET Products,200,OK,Load Test 1-7,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409556687,6,POST Create Product,200,OK,Load Test 1-6,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556688,5,POST Create Product,200,OK,Load Test 1-7,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409556624,84,POST Login,200,OK,Load Test 1-8,text,true,,579,242,4,4,http://localhost:3000/auth/login,84,0,0
+1775409556709,7,GET Products,200,OK,Load Test 1-8,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556635,87,POST Login,200,OK,Load Test 1-9,text,true,,579,242,4,4,http://localhost:3000/auth/login,87,0,2
+1775409556716,7,POST Create Product,200,OK,Load Test 1-8,text,true,,5635,482,4,4,http://localhost:3000/products,7,0,0
+1775409556723,7,GET Products,200,OK,Load Test 1-9,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556730,6,POST Create Product,200,OK,Load Test 1-9,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556693,89,POST Login,200,OK,Load Test 1-6,text,true,,579,242,5,5,http://localhost:3000/auth/login,89,0,0
+1775409556694,95,POST Login,200,OK,Load Test 1-7,text,true,,579,242,5,5,http://localhost:3000/auth/login,94,0,0
+1775409556783,8,GET Products,200,OK,Load Test 1-6,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409556789,10,GET Products,200,OK,Load Test 1-7,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409556792,8,POST Create Product,200,OK,Load Test 1-6,text,true,,5635,482,5,5,http://localhost:3000/products,8,0,0
+1775409556800,6,POST Create Product,200,OK,Load Test 1-7,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556723,94,POST Login,200,OK,Load Test 1-8,text,true,,579,242,4,4,http://localhost:3000/auth/login,93,0,0
+1775409556817,8,GET Products,200,OK,Load Test 1-8,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409556825,7,POST Create Product,200,OK,Load Test 1-8,text,true,,5635,482,4,4,http://localhost:3000/products,6,0,0
+1775409556737,97,POST Login,200,OK,Load Test 1-9,text,true,,579,242,4,4,http://localhost:3000/auth/login,97,0,0
+1775409556835,7,GET Products,200,OK,Load Test 1-9,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556842,6,POST Create Product,200,OK,Load Test 1-9,text,true,,5635,482,5,5,http://localhost:3000/products,6,0,0
+1775409556739,141,POST Login,200,OK,Load Test 1-10,text,true,,579,242,5,5,http://localhost:3000/auth/login,141,0,1
+1775409556881,7,GET Products,200,OK,Load Test 1-10,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556888,7,POST Create Product,200,OK,Load Test 1-10,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556807,98,POST Login,200,OK,Load Test 1-7,text,true,,579,242,5,5,http://localhost:3000/auth/login,98,0,0
+1775409556905,7,GET Products,200,OK,Load Test 1-7,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556913,10,POST Create Product,200,OK,Load Test 1-7,text,true,,5635,482,5,5,http://localhost:3000/products,10,0,0
+1775409556832,101,POST Login,200,OK,Load Test 1-8,text,true,,579,242,4,4,http://localhost:3000/auth/login,101,0,0
+1775409556934,12,GET Products,200,OK,Load Test 1-8,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409556837,109,POST Login,200,OK,Load Test 1-11,text,true,,579,242,5,5,http://localhost:3000/auth/login,108,0,1
+1775409556946,9,POST Create Product,200,OK,Load Test 1-8,text,true,,5635,482,5,5,http://localhost:3000/products,9,0,0
+1775409556946,11,GET Products,200,OK,Load Test 1-11,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409556959,10,POST Create Product,200,OK,Load Test 1-11,text,true,,5635,482,5,5,http://localhost:3000/products,10,0,0
+1775409556849,135,POST Login,200,OK,Load Test 1-9,text,true,,579,242,5,5,http://localhost:3000/auth/login,135,0,0
+1775409556985,7,GET Products,200,OK,Load Test 1-9,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409556993,7,POST Create Product,200,OK,Load Test 1-9,text,true,,5635,482,5,5,http://localhost:3000/products,7,0,0
+1775409556895,117,POST Login,200,OK,Load Test 1-10,text,true,,579,242,5,5,http://localhost:3000/auth/login,117,0,0
+1775409557013,7,GET Products,200,OK,Load Test 1-10,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409557021,8,POST Create Product,200,OK,Load Test 1-10,text,true,,5635,482,5,5,http://localhost:3000/products,8,0,0
+1775409556938,120,POST Login,200,OK,Load Test 1-12,text,true,,579,242,6,6,http://localhost:3000/auth/login,120,0,1
+1775409556956,110,POST Login,200,OK,Load Test 1-8,text,true,,579,242,6,6,http://localhost:3000/auth/login,110,0,0
+1775409557059,11,GET Products,200,OK,Load Test 1-12,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409557070,8,POST Create Product,200,OK,Load Test 1-12,text,true,,5635,482,6,6,http://localhost:3000/products,8,0,0
+1775409556970,118,POST Login,200,OK,Load Test 1-11,text,true,,579,242,6,6,http://localhost:3000/auth/login,118,0,0
+1775409557067,24,GET Products,200,OK,Load Test 1-8,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,24,0,0
+1775409557089,15,GET Products,200,OK,Load Test 1-11,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409557091,13,POST Create Product,200,OK,Load Test 1-8,text,true,,5635,482,6,6,http://localhost:3000/products,13,0,0
+1775409557000,116,POST Login,200,OK,Load Test 1-9,text,true,,579,242,5,5,http://localhost:3000/auth/login,116,0,0
+1775409557105,13,POST Create Product,200,OK,Load Test 1-11,text,true,,5635,482,5,5,http://localhost:3000/products,13,0,0
+1775409557117,12,GET Products,200,OK,Load Test 1-9,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409557129,16,POST Create Product,200,OK,Load Test 1-9,text,true,,5635,482,6,6,http://localhost:3000/products,16,0,0
+1775409557037,133,POST Login,200,OK,Load Test 1-13,text,true,,579,242,6,6,http://localhost:3000/auth/login,133,0,1
+1775409557029,146,POST Login,200,OK,Load Test 1-10,text,true,,579,242,6,6,http://localhost:3000/auth/login,146,0,0
+1775409557171,8,GET Products,200,OK,Load Test 1-13,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557177,8,GET Products,200,OK,Load Test 1-10,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557180,9,POST Create Product,200,OK,Load Test 1-13,text,true,,5635,482,6,6,http://localhost:3000/products,9,0,0
+1775409557079,115,POST Login,200,OK,Load Test 1-12,text,true,,579,242,6,6,http://localhost:3000/auth/login,115,0,0
+1775409557186,13,POST Create Product,200,OK,Load Test 1-10,text,true,,5635,482,6,6,http://localhost:3000/products,13,0,0
+1775409557195,13,GET Products,200,OK,Load Test 1-12,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409557208,7,POST Create Product,200,OK,Load Test 1-12,text,true,,5635,482,6,6,http://localhost:3000/products,7,0,0
+1775409557118,118,POST Login,200,OK,Load Test 1-11,text,true,,579,242,7,7,http://localhost:3000/auth/login,118,0,0
+1775409557237,7,GET Products,200,OK,Load Test 1-11,text,true,,5635,140,7,7,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409557245,7,POST Create Product,200,OK,Load Test 1-11,text,true,,5635,482,7,7,http://localhost:3000/products,7,0,0
+1775409557146,136,POST Login,200,OK,Load Test 1-9,text,true,,579,242,7,7,http://localhost:3000/auth/login,136,0,0
+1775409557137,147,POST Login,200,OK,Load Test 1-14,text,true,,579,242,7,7,http://localhost:3000/auth/login,147,0,1
+1775409557285,10,GET Products,200,OK,Load Test 1-14,text,true,,5635,140,7,7,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409557283,12,GET Products,200,OK,Load Test 1-9,text,true,,5635,140,7,7,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409557295,20,POST Create Product,200,OK,Load Test 1-14,text,true,,5635,482,7,7,http://localhost:3000/products,20,0,0
+1775409557295,20,POST Create Product,200,OK,Load Test 1-9,text,true,,5635,482,7,7,http://localhost:3000/products,20,0,0
+1775409557189,127,POST Login,200,OK,Load Test 1-13,text,true,,579,242,7,7,http://localhost:3000/auth/login,127,0,0
+1775409557317,17,GET Products,200,OK,Load Test 1-13,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,17,0,0
+1775409557334,20,POST Create Product,200,OK,Load Test 1-13,text,true,,5635,482,7,7,http://localhost:3000/products,20,0,0
+1775409557199,202,POST Login,200,OK,Load Test 1-10,text,true,,579,242,7,7,http://localhost:3000/auth/login,202,0,0
+1775409557402,11,GET Products,200,OK,Load Test 1-10,text,true,,5635,140,7,7,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409557413,16,POST Create Product,200,OK,Load Test 1-10,text,true,,5635,482,7,7,http://localhost:3000/products,15,0,0
+1775409557235,242,POST Login,200,OK,Load Test 1-15,text,true,,579,242,8,8,http://localhost:3000/auth/login,242,0,1
+1775409557478,9,GET Products,200,OK,Load Test 1-15,text,true,,5635,140,8,8,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409557216,273,POST Login,200,OK,Load Test 1-12,text,true,,579,242,8,8,http://localhost:3000/auth/login,273,0,0
+1775409557490,9,GET Products,200,OK,Load Test 1-12,text,true,,5635,140,8,8,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409557488,11,POST Create Product,200,OK,Load Test 1-15,text,true,,5635,482,8,8,http://localhost:3000/products,11,0,0
+1775409557500,16,POST Create Product,200,OK,Load Test 1-12,text,true,,5635,482,8,8,http://localhost:3000/products,16,0,0
+1775409557253,263,POST Login,200,OK,Load Test 1-11,text,true,,579,242,8,8,http://localhost:3000/auth/login,263,0,0
+1775409557517,11,GET Products,200,OK,Load Test 1-11,text,true,,5635,140,8,8,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409557529,8,POST Create Product,200,OK,Load Test 1-11,text,true,,5635,482,9,9,http://localhost:3000/products,8,0,0
+1775409557315,259,POST Login,200,OK,Load Test 1-14,text,true,,579,242,9,9,http://localhost:3000/auth/login,259,0,0
+1775409557575,8,GET Products,200,OK,Load Test 1-14,text,true,,5635,140,9,9,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409557583,8,POST Create Product,200,OK,Load Test 1-14,text,true,,5635,482,9,9,http://localhost:3000/products,8,0,0
+1775409557339,282,POST Login,200,OK,Load Test 1-16,text,true,,579,242,9,9,http://localhost:3000/auth/login,282,0,1
+1775409557622,8,GET Products,200,OK,Load Test 1-16,text,true,,5635,140,9,9,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557355,276,POST Login,200,OK,Load Test 1-13,text,true,,579,242,9,9,http://localhost:3000/auth/login,275,0,0
+1775409557430,201,POST Login,200,OK,Load Test 1-10,text,true,,579,242,9,9,http://localhost:3000/auth/login,201,0,0
+1775409557630,12,POST Create Product,200,OK,Load Test 1-16,text,true,,5635,482,10,10,http://localhost:3000/products,12,0,0
+1775409557631,13,GET Products,200,OK,Load Test 1-13,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409557632,15,GET Products,200,OK,Load Test 1-10,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409557645,17,POST Create Product,200,OK,Load Test 1-13,text,true,,5635,482,10,10,http://localhost:3000/products,17,0,0
+1775409557648,17,POST Create Product,200,OK,Load Test 1-10,text,true,,5635,482,10,10,http://localhost:3000/products,17,0,0
+1775409557439,260,POST Login,200,OK,Load Test 1-17,text,true,,579,242,9,9,http://localhost:3000/auth/login,260,0,1
+1775409557701,8,GET Products,200,OK,Load Test 1-17,text,true,,5635,140,9,9,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557709,8,POST Create Product,200,OK,Load Test 1-17,text,true,,5635,482,9,9,http://localhost:3000/products,8,0,0
+1775409557500,251,POST Login,200,OK,Load Test 1-15,text,true,,579,242,10,10,http://localhost:3000/auth/login,251,0,0
+1775409557538,219,POST Login,200,OK,Load Test 1-11,text,true,,579,242,10,10,http://localhost:3000/auth/login,219,0,0
+1775409557517,242,POST Login,200,OK,Load Test 1-12,text,true,,579,242,10,10,http://localhost:3000/auth/login,242,0,0
+1775409557752,13,GET Products,200,OK,Load Test 1-15,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409557758,10,GET Products,200,OK,Load Test 1-11,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409557760,23,GET Products,200,OK,Load Test 1-12,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,23,0,0
+1775409557768,15,POST Create Product,200,OK,Load Test 1-11,text,true,,5635,482,10,10,http://localhost:3000/products,15,0,0
+1775409557765,19,POST Create Product,200,OK,Load Test 1-15,text,true,,5635,482,10,10,http://localhost:3000/products,19,0,0
+1775409557784,14,POST Create Product,200,OK,Load Test 1-12,text,true,,5635,482,9,9,http://localhost:3000/products,14,0,0
+1775409557536,296,POST Login,200,OK,Load Test 1-18,text,true,,579,242,9,9,http://localhost:3000/auth/login,296,0,1
+1775409557833,8,GET Products,200,OK,Load Test 1-18,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557842,7,POST Create Product,200,OK,Load Test 1-18,text,true,,5635,482,10,10,http://localhost:3000/products,7,0,0
+1775409557640,242,POST Login,200,OK,Load Test 1-19,text,true,,579,242,10,10,http://localhost:3000/auth/login,242,0,1
+1775409557592,290,POST Login,200,OK,Load Test 1-14,text,true,,579,242,10,10,http://localhost:3000/auth/login,290,0,0
+1775409557643,240,POST Login,200,OK,Load Test 1-16,text,true,,579,242,10,10,http://localhost:3000/auth/login,240,0,0
+1775409557883,12,GET Products,200,OK,Load Test 1-19,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409557883,13,GET Products,200,OK,Load Test 1-16,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409557883,14,GET Products,200,OK,Load Test 1-14,text,true,,5635,140,10,10,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409557897,10,POST Create Product,200,OK,Load Test 1-16,text,true,,5635,482,10,10,http://localhost:3000/products,9,0,0
+1775409557895,15,POST Create Product,200,OK,Load Test 1-19,text,true,,5635,482,10,10,http://localhost:3000/products,14,0,0
+1775409557897,19,POST Create Product,200,OK,Load Test 1-14,text,true,,5635,482,10,10,http://localhost:3000/products,19,0,0
+1775409557662,305,POST Login,200,OK,Load Test 1-13,text,true,,579,242,11,11,http://localhost:3000/auth/login,305,0,0
+1775409557968,7,GET Products,200,OK,Load Test 1-13,text,true,,5635,140,11,11,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409557976,8,POST Create Product,200,OK,Load Test 1-13,text,true,,5635,482,11,11,http://localhost:3000/products,8,0,0
+1775409557784,226,POST Login,200,OK,Load Test 1-15,text,true,,579,242,11,11,http://localhost:3000/auth/login,226,0,0
+1775409557735,276,POST Login,200,OK,Load Test 1-20,text,true,,579,242,11,11,http://localhost:3000/auth/login,276,0,1
+1775409558011,10,GET Products,200,OK,Load Test 1-20,text,true,,5635,140,11,11,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409558011,10,GET Products,200,OK,Load Test 1-15,text,true,,5635,140,11,11,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409557718,303,POST Login,200,OK,Load Test 1-17,text,true,,579,242,11,11,http://localhost:3000/auth/login,303,0,0
+1775409558021,13,GET Products,200,OK,Load Test 1-17,text,true,,5635,140,12,12,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409558022,15,POST Create Product,200,OK,Load Test 1-20,text,true,,5635,482,12,12,http://localhost:3000/products,15,0,0
+1775409558022,14,POST Create Product,200,OK,Load Test 1-15,text,true,,5635,482,12,12,http://localhost:3000/products,14,0,0
+1775409558035,17,POST Create Product,200,OK,Load Test 1-17,text,true,,5635,482,12,12,http://localhost:3000/products,17,0,0
+1775409557799,326,POST Login,200,OK,Load Test 1-12,text,true,,579,242,12,12,http://localhost:3000/auth/login,326,0,0
+1775409558126,8,GET Products,200,OK,Load Test 1-12,text,true,,5635,140,12,12,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557834,308,POST Login,200,OK,Load Test 1-21,text,true,,579,242,13,13,http://localhost:3000/auth/login,308,0,2
+1775409558135,9,POST Create Product,200,OK,Load Test 1-12,text,true,,5635,482,13,13,http://localhost:3000/products,9,0,0
+1775409558143,7,GET Products,200,OK,Load Test 1-21,text,true,,5635,140,12,12,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409558150,7,POST Create Product,200,OK,Load Test 1-21,text,true,,5635,482,12,12,http://localhost:3000/products,7,0,0
+1775409557850,314,POST Login,200,OK,Load Test 1-18,text,true,,579,242,12,12,http://localhost:3000/auth/login,314,0,0
+1775409558165,8,GET Products,200,OK,Load Test 1-18,text,true,,5635,140,12,12,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409557907,267,POST Login,200,OK,Load Test 1-16,text,true,,579,242,12,12,http://localhost:3000/auth/login,267,0,0
+1775409558173,9,POST Create Product,200,OK,Load Test 1-18,text,true,,5635,482,12,12,http://localhost:3000/products,9,0,0
+1775409558174,14,GET Products,200,OK,Load Test 1-16,text,true,,5635,140,12,12,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409558188,11,POST Create Product,200,OK,Load Test 1-16,text,true,,5635,482,12,12,http://localhost:3000/products,11,0,0
+1775409557910,347,POST Login,200,OK,Load Test 1-19,text,true,,579,242,13,13,http://localhost:3000/auth/login,347,0,0
+1775409558258,10,GET Products,200,OK,Load Test 1-19,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409557916,365,POST Login,200,OK,Load Test 1-14,text,true,,579,242,13,13,http://localhost:3000/auth/login,365,0,0
+1775409558268,16,POST Create Product,200,OK,Load Test 1-19,text,true,,5635,482,13,13,http://localhost:3000/products,16,0,0
+1775409558282,9,GET Products,200,OK,Load Test 1-14,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409557935,370,POST Login,200,OK,Load Test 1-22,text,true,,579,242,13,13,http://localhost:3000/auth/login,370,0,1
+1775409558293,16,POST Create Product,200,OK,Load Test 1-14,text,true,,5635,482,13,13,http://localhost:3000/products,16,0,0
+1775409558306,12,GET Products,200,OK,Load Test 1-22,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409557985,336,POST Login,200,OK,Load Test 1-13,text,true,,579,242,13,13,http://localhost:3000/auth/login,336,0,0
+1775409558322,11,GET Products,200,OK,Load Test 1-13,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409558318,18,POST Create Product,200,OK,Load Test 1-22,text,true,,5635,482,13,13,http://localhost:3000/products,18,0,0
+1775409558334,12,POST Create Product,200,OK,Load Test 1-13,text,true,,5635,482,14,14,http://localhost:3000/products,12,0,0
+1775409558038,424,POST Login,200,OK,Load Test 1-20,text,true,,579,242,14,14,http://localhost:3000/auth/login,424,0,0
+1775409558463,10,GET Products,200,OK,Load Test 1-20,text,true,,5635,140,14,14,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409558044,429,POST Login,200,OK,Load Test 1-15,text,true,,579,242,14,14,http://localhost:3000/auth/login,429,0,0
+1775409558473,17,POST Create Product,200,OK,Load Test 1-20,text,true,,5635,482,14,14,http://localhost:3000/products,17,0,0
+1775409558474,16,GET Products,200,OK,Load Test 1-15,text,true,,5635,140,14,14,http://localhost:3000/products?page=1&limit=10,16,0,0
+1775409558035,467,POST Login,200,OK,Load Test 1-23,text,true,,579,242,14,14,http://localhost:3000/auth/login,467,0,10
+1775409558491,23,POST Create Product,200,OK,Load Test 1-15,text,true,,5635,482,14,14,http://localhost:3000/products,23,0,0
+1775409558503,13,GET Products,200,OK,Load Test 1-23,text,true,,5635,140,14,14,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409558052,465,POST Login,200,OK,Load Test 1-17,text,true,,579,242,14,14,http://localhost:3000/auth/login,465,0,0
+1775409558516,46,POST Create Product,200,OK,Load Test 1-23,text,true,,5635,482,15,15,http://localhost:3000/products,46,0,0
+1775409558518,44,GET Products,200,OK,Load Test 1-17,text,true,,5635,140,15,15,http://localhost:3000/products?page=1&limit=10,44,0,0
+1775409558563,12,POST Create Product,200,OK,Load Test 1-17,text,true,,5635,482,15,15,http://localhost:3000/products,11,0,0
+1775409558136,518,POST Login,200,OK,Load Test 1-24,text,true,,579,242,16,16,http://localhost:3000/auth/login,518,0,1
+1775409558158,496,POST Login,200,OK,Load Test 1-21,text,true,,579,242,16,16,http://localhost:3000/auth/login,496,0,0
+1775409558655,8,GET Products,200,OK,Load Test 1-24,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409558655,12,GET Products,200,OK,Load Test 1-21,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409558664,17,POST Create Product,200,OK,Load Test 1-24,text,true,,5635,482,16,16,http://localhost:3000/products,17,0,0
+1775409558667,38,POST Create Product,200,OK,Load Test 1-21,text,true,,5635,482,16,16,http://localhost:3000/products,38,0,0
+1775409558183,522,POST Login,200,OK,Load Test 1-18,text,true,,579,242,16,16,http://localhost:3000/auth/login,522,0,0
+1775409558706,10,GET Products,200,OK,Load Test 1-18,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409558200,516,POST Login,200,OK,Load Test 1-16,text,true,,579,242,16,16,http://localhost:3000/auth/login,516,0,0
+1775409558717,11,GET Products,200,OK,Load Test 1-16,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409558717,17,POST Create Product,200,OK,Load Test 1-18,text,true,,5635,482,16,16,http://localhost:3000/products,16,0,0
+1775409558728,14,POST Create Product,200,OK,Load Test 1-16,text,true,,5635,482,17,17,http://localhost:3000/products,14,0,0
+1775409558285,531,POST Login,200,OK,Load Test 1-19,text,true,,579,242,17,17,http://localhost:3000/auth/login,530,0,0
+1775409558816,11,GET Products,200,OK,Load Test 1-19,text,true,,5635,140,17,17,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409558238,600,POST Login,200,OK,Load Test 1-25,text,true,,579,242,17,17,http://localhost:3000/auth/login,600,0,2
+1775409558828,18,POST Create Product,200,OK,Load Test 1-19,text,true,,5635,482,18,18,http://localhost:3000/products,18,0,0
+1775409558337,529,POST Login,200,OK,Load Test 1-22,text,true,,579,242,18,18,http://localhost:3000/auth/login,529,0,0
+1775409558310,556,POST Login,200,OK,Load Test 1-14,text,true,,579,242,18,18,http://localhost:3000/auth/login,556,0,0
+1775409558838,46,GET Products,200,OK,Load Test 1-25,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,46,0,0
+1775409558867,25,GET Products,200,OK,Load Test 1-14,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,25,0,0
+1775409558867,31,GET Products,200,OK,Load Test 1-22,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,31,0,0
+1775409558885,14,POST Create Product,200,OK,Load Test 1-25,text,true,,5635,482,18,18,http://localhost:3000/products,14,0,0
+1775409558893,23,POST Create Product,200,OK,Load Test 1-14,text,true,,5635,482,18,18,http://localhost:3000/products,23,0,0
+1775409558899,21,POST Create Product,200,OK,Load Test 1-22,text,true,,5635,482,17,17,http://localhost:3000/products,21,0,0
+1775409558339,666,POST Login,200,OK,Load Test 1-26,text,true,,579,242,18,18,http://localhost:3000/auth/login,666,0,1
+1775409559005,11,GET Products,200,OK,Load Test 1-26,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409559017,13,POST Create Product,200,OK,Load Test 1-26,text,true,,5635,482,18,18,http://localhost:3000/products,13,0,0
+1775409558437,627,POST Login,200,OK,Load Test 1-27,text,true,,579,242,19,19,http://localhost:3000/auth/login,627,0,8
+1775409559066,22,GET Products,200,OK,Load Test 1-27,text,true,,5635,140,19,19,http://localhost:3000/products?page=1&limit=10,22,0,0
+1775409558491,600,POST Login,200,OK,Load Test 1-20,text,true,,579,242,19,19,http://localhost:3000/auth/login,599,0,0
+1775409558515,582,POST Login,200,OK,Load Test 1-15,text,true,,579,242,19,19,http://localhost:3000/auth/login,582,0,0
+1775409559088,15,POST Create Product,200,OK,Load Test 1-27,text,true,,5635,482,19,19,http://localhost:3000/products,15,0,0
+1775409559092,32,GET Products,200,OK,Load Test 1-20,text,true,,5635,140,19,19,http://localhost:3000/products?page=1&limit=10,32,0,0
+1775409559099,31,GET Products,200,OK,Load Test 1-15,text,true,,5635,140,19,19,http://localhost:3000/products?page=1&limit=10,31,0,0
+1775409559124,19,POST Create Product,200,OK,Load Test 1-20,text,true,,5635,482,20,20,http://localhost:3000/products,19,0,0
+1775409559131,22,POST Create Product,200,OK,Load Test 1-15,text,true,,5635,482,20,20,http://localhost:3000/products,22,0,0
+1775409558537,670,POST Login,200,OK,Load Test 1-28,text,true,,579,242,19,19,http://localhost:3000/auth/login,670,0,2
+1775409559208,15,GET Products,200,OK,Load Test 1-28,text,true,,5635,140,19,19,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409559225,16,POST Create Product,200,OK,Load Test 1-28,text,true,,5635,482,20,20,http://localhost:3000/products,16,0,0
+1775409558563,704,POST Login,200,OK,Load Test 1-23,text,true,,579,242,20,20,http://localhost:3000/auth/login,704,0,0
+1775409559268,9,GET Products,200,OK,Load Test 1-23,text,true,,5635,140,20,20,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409559278,18,POST Create Product,200,OK,Load Test 1-23,text,true,,5635,482,20,20,http://localhost:3000/products,17,0,0
+1775409558575,721,POST Login,200,OK,Load Test 1-17,text,true,,579,242,20,20,http://localhost:3000/auth/login,720,0,0
+1775409559296,12,GET Products,200,OK,Load Test 1-17,text,true,,5635,140,20,20,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409558634,674,POST Login,200,OK,Load Test 1-29,text,true,,579,242,20,20,http://localhost:3000/auth/login,674,0,2
+1775409559309,14,GET Products,200,OK,Load Test 1-29,text,true,,5635,140,20,20,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409559309,20,POST Create Product,200,OK,Load Test 1-17,text,true,,5635,482,20,20,http://localhost:3000/products,20,0,0
+1775409559324,18,POST Create Product,200,OK,Load Test 1-29,text,true,,5635,482,21,21,http://localhost:3000/products,18,0,0
+1775409558682,716,POST Login,200,OK,Load Test 1-24,text,true,,579,242,21,21,http://localhost:3000/auth/login,716,0,0
+1775409559398,10,GET Products,200,OK,Load Test 1-24,text,true,,5635,140,21,21,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409559409,8,POST Create Product,200,OK,Load Test 1-24,text,true,,5635,482,21,21,http://localhost:3000/products,8,0,0
+1775409558706,728,POST Login,200,OK,Load Test 1-21,text,true,,579,242,21,21,http://localhost:3000/auth/login,728,0,0
+1775409559435,8,GET Products,200,OK,Load Test 1-21,text,true,,5635,140,22,22,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409559444,29,POST Create Product,200,OK,Load Test 1-21,text,true,,5635,482,22,22,http://localhost:3000/products,29,0,0
+1775409558737,747,POST Login,200,OK,Load Test 1-18,text,true,,579,242,22,22,http://localhost:3000/auth/login,747,0,0
+1775409559485,12,GET Products,200,OK,Load Test 1-18,text,true,,5635,140,22,22,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409558742,758,POST Login,200,OK,Load Test 1-16,text,true,,579,242,22,22,http://localhost:3000/auth/login,758,0,0
+1775409559498,20,POST Create Product,200,OK,Load Test 1-18,text,true,,5635,482,22,22,http://localhost:3000/products,20,0,0
+1775409559501,18,GET Products,200,OK,Load Test 1-16,text,true,,5635,140,22,22,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409559519,14,POST Create Product,200,OK,Load Test 1-16,text,true,,5635,482,22,22,http://localhost:3000/products,14,0,0
+1775409558741,886,POST Login,200,OK,Load Test 1-30,text,true,,579,242,22,22,http://localhost:3000/auth/login,886,0,2
+1775409559628,17,GET Products,200,OK,Load Test 1-30,text,true,,5635,140,23,23,http://localhost:3000/products?page=1&limit=10,17,0,0
+1775409559646,13,POST Create Product,200,OK,Load Test 1-30,text,true,,5635,482,23,23,http://localhost:3000/products,13,0,0
+1775409558846,837,POST Login,200,OK,Load Test 1-19,text,true,,579,242,23,23,http://localhost:3000/auth/login,837,0,0
+1775409559684,8,GET Products,200,OK,Load Test 1-19,text,true,,5635,140,23,23,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409559693,22,POST Create Product,200,OK,Load Test 1-19,text,true,,5635,482,23,23,http://localhost:3000/products,22,0,0
+1775409558843,894,POST Login,200,OK,Load Test 1-31,text,true,,579,242,24,24,http://localhost:3000/auth/login,894,0,1
+1775409559738,18,GET Products,200,OK,Load Test 1-31,text,true,,5635,140,24,24,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409558899,863,POST Login,200,OK,Load Test 1-25,text,true,,579,242,24,24,http://localhost:3000/auth/login,863,0,0
+1775409559756,11,POST Create Product,200,OK,Load Test 1-31,text,true,,5635,482,24,24,http://localhost:3000/products,11,0,0
+1775409559763,26,GET Products,200,OK,Load Test 1-25,text,true,,5635,140,24,24,http://localhost:3000/products?page=1&limit=10,25,0,0
+1775409559789,11,POST Create Product,200,OK,Load Test 1-25,text,true,,5635,482,24,24,http://localhost:3000/products,11,0,0
+1775409558921,949,POST Login,200,OK,Load Test 1-22,text,true,,579,242,25,25,http://localhost:3000/auth/login,949,0,0
+1775409559876,12,GET Products,200,OK,Load Test 1-22,text,true,,5635,140,25,25,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409559894,10,POST Create Product,200,OK,Load Test 1-22,text,true,,5635,482,25,25,http://localhost:3000/products,10,0,0
+1775409558945,1026,POST Login,200,OK,Load Test 1-32,text,true,,579,242,26,26,http://localhost:3000/auth/login,1026,0,2
+1775409559973,11,GET Products,200,OK,Load Test 1-32,text,true,,5635,140,26,26,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409559984,14,POST Create Product,200,OK,Load Test 1-32,text,true,,5635,482,26,26,http://localhost:3000/products,14,0,0
+1775409559030,1017,POST Login,200,OK,Load Test 1-26,text,true,,579,242,27,27,http://localhost:3000/auth/login,1017,0,0
+1775409559036,1012,POST Login,200,OK,Load Test 1-33,text,true,,579,242,27,27,http://localhost:3000/auth/login,1012,0,3
+1775409560049,16,GET Products,200,OK,Load Test 1-33,text,true,,5635,140,27,27,http://localhost:3000/products?page=1&limit=10,16,0,0
+1775409560048,40,GET Products,200,OK,Load Test 1-26,text,true,,5635,140,27,27,http://localhost:3000/products?page=1&limit=10,40,0,0
+1775409560066,34,POST Create Product,200,OK,Load Test 1-33,text,true,,5635,482,27,27,http://localhost:3000/products,34,0,0
+1775409560089,26,POST Create Product,200,OK,Load Test 1-26,text,true,,5635,482,27,27,http://localhost:3000/products,21,0,0
+1775409559104,1020,POST Login,200,OK,Load Test 1-27,text,true,,579,242,27,27,http://localhost:3000/auth/login,1020,0,0
+1775409560125,28,GET Products,200,OK,Load Test 1-27,text,true,,5635,140,28,28,http://localhost:3000/products?page=1&limit=10,28,0,0
+1775409560154,10,POST Create Product,200,OK,Load Test 1-27,text,true,,5635,482,28,28,http://localhost:3000/products,10,0,0
+1775409559143,1117,POST Login,200,OK,Load Test 1-20,text,true,,579,242,29,29,http://localhost:3000/auth/login,1117,0,0
+1775409560261,19,GET Products,200,OK,Load Test 1-20,text,true,,5635,140,29,29,http://localhost:3000/products?page=1&limit=10,19,0,0
+1775409559143,1142,POST Login,200,OK,Load Test 1-34,text,true,,579,242,29,29,http://localhost:3000/auth/login,1142,0,1
+1775409560280,26,POST Create Product,200,OK,Load Test 1-20,text,true,,5635,482,29,29,http://localhost:3000/products,26,0,0
+1775409560286,30,GET Products,200,OK,Load Test 1-34,text,true,,5635,140,29,29,http://localhost:3000/products?page=1&limit=10,30,0,0
+1775409559241,1075,POST Login,200,OK,Load Test 1-28,text,true,,579,242,29,29,http://localhost:3000/auth/login,1075,0,0
+1775409559237,1089,POST Login,200,OK,Load Test 1-35,text,true,,579,242,29,29,http://localhost:3000/auth/login,1089,0,2
+1775409560318,18,POST Create Product,200,OK,Load Test 1-34,text,true,,5635,482,29,29,http://localhost:3000/products,18,0,0
+1775409560317,19,GET Products,200,OK,Load Test 1-28,text,true,,5635,140,29,29,http://localhost:3000/products?page=1&limit=10,19,0,0
+1775409560337,32,POST Create Product,200,OK,Load Test 1-28,text,true,,5635,482,30,30,http://localhost:3000/products,31,0,0
+1775409560334,43,GET Products,200,OK,Load Test 1-35,text,true,,5635,140,30,30,http://localhost:3000/products?page=1&limit=10,43,0,0
+1775409560377,12,POST Create Product,200,OK,Load Test 1-35,text,true,,5635,482,30,30,http://localhost:3000/products,12,0,0
+1775409559296,1183,POST Login,200,OK,Load Test 1-23,text,true,,579,242,31,31,http://localhost:3000/auth/login,1183,0,0
+1775409560480,10,GET Products,200,OK,Load Test 1-23,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409560491,8,POST Create Product,200,OK,Load Test 1-23,text,true,,5635,482,31,31,http://localhost:3000/products,8,0,0
+1775409559330,1191,POST Login,200,OK,Load Test 1-17,text,true,,579,242,31,31,http://localhost:3000/auth/login,1191,0,0
+1775409559342,1187,POST Login,200,OK,Load Test 1-29,text,true,,579,242,31,31,http://localhost:3000/auth/login,1187,0,0
+1775409560521,13,GET Products,200,OK,Load Test 1-17,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409559335,1200,POST Login,200,OK,Load Test 1-36,text,true,,579,242,31,31,http://localhost:3000/auth/login,1200,0,8
+1775409560530,22,GET Products,200,OK,Load Test 1-29,text,true,,5635,140,32,32,http://localhost:3000/products?page=1&limit=10,22,0,0
+1775409560536,36,GET Products,200,OK,Load Test 1-36,text,true,,5635,140,32,32,http://localhost:3000/products?page=1&limit=10,36,0,0
+1775409560534,38,POST Create Product,200,OK,Load Test 1-17,text,true,,5635,482,32,32,http://localhost:3000/products,38,0,0
+1775409560572,17,POST Create Product,200,OK,Load Test 1-36,text,true,,5635,482,31,31,http://localhost:3000/products,16,0,0
+1775409559417,1270,POST Login,200,OK,Load Test 1-24,text,true,,579,242,32,32,http://localhost:3000/auth/login,1270,0,0
+1775409560688,8,GET Products,200,OK,Load Test 1-24,text,true,,5635,140,32,32,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409560697,15,POST Create Product,200,OK,Load Test 1-24,text,true,,5635,482,32,32,http://localhost:3000/products,15,0,0
+1775409559473,1272,POST Login,200,OK,Load Test 1-21,text,true,,579,242,33,33,http://localhost:3000/auth/login,1272,0,0
+1775409559518,1229,POST Login,200,OK,Load Test 1-18,text,true,,579,242,33,33,http://localhost:3000/auth/login,1228,0,0
+1775409559445,1314,POST Login,200,OK,Load Test 1-37,text,true,,579,242,33,33,http://localhost:3000/auth/login,1314,0,3
+1775409560746,22,GET Products,200,OK,Load Test 1-21,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,22,0,0
+1775409560747,32,GET Products,200,OK,Load Test 1-18,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,32,0,0
+1775409560760,23,GET Products,200,OK,Load Test 1-37,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,23,0,0
+1775409560769,20,POST Create Product,200,OK,Load Test 1-21,text,true,,5635,482,33,33,http://localhost:3000/products,20,0,0
+1775409560783,12,POST Create Product,200,OK,Load Test 1-37,text,true,,5635,482,33,33,http://localhost:3000/products,12,0,0
+1775409560780,20,POST Create Product,200,OK,Load Test 1-18,text,true,,5635,482,33,33,http://localhost:3000/products,20,0,0
+1775409559536,1319,POST Login,200,OK,Load Test 1-38,text,true,,579,242,33,33,http://localhost:3000/auth/login,1319,0,2
+1775409560856,14,GET Products,200,OK,Load Test 1-38,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409560871,9,POST Create Product,200,OK,Load Test 1-38,text,true,,5635,482,33,33,http://localhost:3000/products,9,0,0
+1775409559660,1234,POST Login,200,OK,Load Test 1-30,text,true,,579,242,33,33,http://localhost:3000/auth/login,1234,0,0
+1775409559644,1255,POST Login,200,OK,Load Test 1-39,text,true,,579,242,33,33,http://localhost:3000/auth/login,1255,0,1
+1775409559715,1190,POST Login,200,OK,Load Test 1-19,text,true,,579,242,33,33,http://localhost:3000/auth/login,1189,0,0
+1775409560895,11,GET Products,200,OK,Load Test 1-30,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409560900,11,GET Products,200,OK,Load Test 1-39,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409560906,17,POST Create Product,200,OK,Load Test 1-30,text,true,,5635,482,33,33,http://localhost:3000/products,17,0,0
+1775409560912,12,POST Create Product,200,OK,Load Test 1-39,text,true,,5635,482,33,33,http://localhost:3000/products,12,0,0
+1775409560905,27,GET Products,200,OK,Load Test 1-19,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,26,0,0
+1775409560932,28,POST Create Product,200,OK,Load Test 1-19,text,true,,5635,482,34,34,http://localhost:3000/products,28,0,0
+1775409559735,1275,POST Login,200,OK,Load Test 1-40,text,true,,579,242,33,33,http://localhost:3000/auth/login,1275,0,2
+1775409561011,8,GET Products,200,OK,Load Test 1-40,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409561020,14,POST Create Product,200,OK,Load Test 1-40,text,true,,5635,482,33,33,http://localhost:3000/products,14,0,0
+1775409559801,1264,POST Login,200,OK,Load Test 1-25,text,true,,579,242,34,34,http://localhost:3000/auth/login,1264,0,0
+1775409559842,1223,POST Login,200,OK,Load Test 1-41,text,true,,579,242,34,34,http://localhost:3000/auth/login,1223,0,2
+1775409561066,13,GET Products,200,OK,Load Test 1-25,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409561066,23,GET Products,200,OK,Load Test 1-41,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,23,0,0
+1775409559767,1325,POST Login,200,OK,Load Test 1-31,text,true,,579,242,34,34,http://localhost:3000/auth/login,1325,0,0
+1775409561090,23,POST Create Product,200,OK,Load Test 1-41,text,true,,5635,482,34,34,http://localhost:3000/products,23,0,0
+1775409561079,34,POST Create Product,200,OK,Load Test 1-25,text,true,,5635,482,34,34,http://localhost:3000/products,34,0,0
+1775409561093,21,GET Products,200,OK,Load Test 1-31,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,21,0,0
+1775409561114,14,POST Create Product,200,OK,Load Test 1-31,text,true,,5635,482,34,34,http://localhost:3000/products,14,0,0
+1775409559905,1279,POST Login,200,OK,Load Test 1-22,text,true,,579,242,35,35,http://localhost:3000/auth/login,1279,0,0
+1775409561184,9,GET Products,200,OK,Load Test 1-22,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409561193,10,POST Create Product,200,OK,Load Test 1-22,text,true,,5635,482,35,35,http://localhost:3000/products,10,0,0
+1775409559937,1285,POST Login,200,OK,Load Test 1-42,text,true,,579,242,35,35,http://localhost:3000/auth/login,1285,0,3
+1775409561223,8,GET Products,200,OK,Load Test 1-42,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409559999,1252,POST Login,200,OK,Load Test 1-32,text,true,,579,242,36,36,http://localhost:3000/auth/login,1252,0,0
+1775409561231,24,POST Create Product,200,OK,Load Test 1-42,text,true,,5635,482,36,36,http://localhost:3000/products,24,0,0
+1775409561252,9,GET Products,200,OK,Load Test 1-32,text,true,,5635,140,36,36,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409560036,1229,POST Login,200,OK,Load Test 1-43,text,true,,579,242,36,36,http://localhost:3000/auth/login,1229,0,2
+1775409561261,20,POST Create Product,200,OK,Load Test 1-32,text,true,,5635,482,36,36,http://localhost:3000/products,20,0,0
+1775409561266,15,GET Products,200,OK,Load Test 1-43,text,true,,5635,140,36,36,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409561281,15,POST Create Product,200,OK,Load Test 1-43,text,true,,5635,482,36,36,http://localhost:3000/products,15,0,0
+1775409560100,1276,POST Login,200,OK,Load Test 1-33,text,true,,579,242,37,37,http://localhost:3000/auth/login,1276,0,0
+1775409561376,17,GET Products,200,OK,Load Test 1-33,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,17,0,0
+1775409560115,1287,POST Login,200,OK,Load Test 1-26,text,true,,579,242,37,37,http://localhost:3000/auth/login,1287,0,0
+1775409561393,9,POST Create Product,200,OK,Load Test 1-33,text,true,,5635,482,37,37,http://localhost:3000/products,9,0,0
+1775409561402,10,GET Products,200,OK,Load Test 1-26,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409561413,9,POST Create Product,200,OK,Load Test 1-26,text,true,,5635,482,37,37,http://localhost:3000/products,9,0,0
+1775409560137,1303,POST Login,200,OK,Load Test 1-44,text,true,,579,242,38,38,http://localhost:3000/auth/login,1303,0,3
+1775409560165,1293,POST Login,200,OK,Load Test 1-27,text,true,,579,242,38,38,http://localhost:3000/auth/login,1293,0,0
+1775409561440,44,GET Products,200,OK,Load Test 1-44,text,true,,5635,140,38,38,http://localhost:3000/products?page=1&limit=10,44,0,0
+1775409561459,69,GET Products,200,OK,Load Test 1-27,text,true,,5635,140,38,38,http://localhost:3000/products?page=1&limit=10,69,0,0
+1775409561484,99,POST Create Product,200,OK,Load Test 1-44,text,true,,5635,482,39,39,http://localhost:3000/products,99,0,0
+1775409561528,76,POST Create Product,200,OK,Load Test 1-27,text,true,,5635,482,39,39,http://localhost:3000/products,76,0,0
+1775409560236,1369,POST Login,200,OK,Load Test 1-45,text,true,,579,242,39,39,http://localhost:3000/auth/login,1369,0,1
+1775409561605,29,GET Products,200,OK,Load Test 1-45,text,true,,5635,140,39,39,http://localhost:3000/products?page=1&limit=10,29,0,0
+1775409561635,19,POST Create Product,200,OK,Load Test 1-45,text,true,,5635,482,40,40,http://localhost:3000/products,19,0,0
+1775409560306,1366,POST Login,200,OK,Load Test 1-20,text,true,,579,242,40,40,http://localhost:3000/auth/login,1366,0,0
+1775409560337,1356,POST Login,200,OK,Load Test 1-34,text,true,,579,242,40,40,http://localhost:3000/auth/login,1356,0,0
+1775409561694,19,GET Products,200,OK,Load Test 1-34,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409561672,54,GET Products,200,OK,Load Test 1-20,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,54,0,0
+1775409560340,1386,POST Login,200,OK,Load Test 1-46,text,true,,579,242,40,40,http://localhost:3000/auth/login,1386,0,3
+1775409561713,17,POST Create Product,200,OK,Load Test 1-34,text,true,,5635,482,40,40,http://localhost:3000/products,17,0,0
+1775409561727,14,POST Create Product,200,OK,Load Test 1-20,text,true,,5635,482,40,40,http://localhost:3000/products,14,0,0
+1775409561727,20,GET Products,200,OK,Load Test 1-46,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,20,0,0
+1775409561748,10,POST Create Product,200,OK,Load Test 1-46,text,true,,5635,482,40,40,http://localhost:3000/products,10,0,0
+1775409560369,1410,POST Login,200,OK,Load Test 1-28,text,true,,579,242,40,40,http://localhost:3000/auth/login,1410,0,0
+1775409561780,13,GET Products,200,OK,Load Test 1-28,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409561793,8,POST Create Product,200,OK,Load Test 1-28,text,true,,5635,482,40,40,http://localhost:3000/products,8,0,0
+1775409560437,1392,POST Login,200,OK,Load Test 1-47,text,true,,579,242,40,40,http://localhost:3000/auth/login,1392,0,2
+1775409560389,1446,POST Login,200,OK,Load Test 1-35,text,true,,579,242,40,40,http://localhost:3000/auth/login,1446,0,0
+1775409561830,15,GET Products,200,OK,Load Test 1-47,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409561836,11,GET Products,200,OK,Load Test 1-35,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409560499,1361,POST Login,200,OK,Load Test 1-23,text,true,,579,242,41,41,http://localhost:3000/auth/login,1361,0,0
+1775409561845,17,POST Create Product,200,OK,Load Test 1-47,text,true,,5635,482,41,41,http://localhost:3000/products,17,0,0
+1775409561848,17,POST Create Product,200,OK,Load Test 1-35,text,true,,5635,482,41,41,http://localhost:3000/products,17,0,0
+1775409561860,31,GET Products,200,OK,Load Test 1-23,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,31,0,0
+1775409561893,11,POST Create Product,200,OK,Load Test 1-23,text,true,,5635,482,41,41,http://localhost:3000/products,11,0,0
+1775409560537,1374,POST Login,200,OK,Load Test 1-48,text,true,,579,242,41,41,http://localhost:3000/auth/login,1374,0,1
+1775409561911,8,GET Products,200,OK,Load Test 1-48,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409561919,7,POST Create Product,200,OK,Load Test 1-48,text,true,,5635,482,41,41,http://localhost:3000/products,7,0,0
+1775409560589,1361,POST Login,200,OK,Load Test 1-36,text,true,,579,242,42,42,http://localhost:3000/auth/login,1361,0,0
+1775409561951,6,GET Products,200,OK,Load Test 1-36,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409560635,1324,POST Login,200,OK,Load Test 1-49,text,true,,579,242,42,42,http://localhost:3000/auth/login,1324,0,1
+1775409561957,9,POST Create Product,200,OK,Load Test 1-36,text,true,,5635,482,42,42,http://localhost:3000/products,9,0,0
+1775409561959,9,GET Products,200,OK,Load Test 1-49,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409561968,6,POST Create Product,200,OK,Load Test 1-49,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409560712,1263,POST Login,200,OK,Load Test 1-24,text,true,,579,242,42,42,http://localhost:3000/auth/login,1263,0,0
+1775409561976,6,GET Products,200,OK,Load Test 1-24,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409561983,6,POST Create Product,200,OK,Load Test 1-24,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409560735,1288,POST Login,200,OK,Load Test 1-50,text,true,,579,242,42,42,http://localhost:3000/auth/login,1288,0,1
+1775409562023,7,GET Products,200,OK,Load Test 1-50,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562031,6,POST Create Product,200,OK,Load Test 1-50,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409560790,1268,POST Login,200,OK,Load Test 1-21,text,true,,579,242,43,43,http://localhost:3000/auth/login,1268,0,0
+1775409562058,8,GET Products,200,OK,Load Test 1-21,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409560795,1272,POST Login,200,OK,Load Test 1-37,text,true,,579,242,43,43,http://localhost:3000/auth/login,1272,0,0
+1775409562066,11,POST Create Product,200,OK,Load Test 1-21,text,true,,5635,482,43,43,http://localhost:3000/products,11,0,0
+1775409562067,11,GET Products,200,OK,Load Test 1-37,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409562078,7,POST Create Product,200,OK,Load Test 1-37,text,true,,5635,482,42,42,http://localhost:3000/products,7,0,0
+1775409560834,1257,POST Login,200,OK,Load Test 1-51,text,true,,579,242,42,42,http://localhost:3000/auth/login,1257,0,1
+1775409562091,9,GET Products,200,OK,Load Test 1-51,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409562100,8,POST Create Product,200,OK,Load Test 1-51,text,true,,5635,482,42,42,http://localhost:3000/products,8,0,0
+1775409560881,1267,POST Login,200,OK,Load Test 1-38,text,true,,579,242,43,43,http://localhost:3000/auth/login,1267,0,0
+1775409562149,8,GET Products,200,OK,Load Test 1-38,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409562157,16,POST Create Product,200,OK,Load Test 1-38,text,true,,5635,482,43,43,http://localhost:3000/products,16,0,0
+1775409560925,1286,POST Login,200,OK,Load Test 1-39,text,true,,579,242,43,43,http://localhost:3000/auth/login,1285,0,0
+1775409562211,9,GET Products,200,OK,Load Test 1-39,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409560936,1285,POST Login,200,OK,Load Test 1-52,text,true,,579,242,43,43,http://localhost:3000/auth/login,1285,0,1
+1775409562223,13,GET Products,200,OK,Load Test 1-52,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,13,0,0
+1775409560923,1313,POST Login,200,OK,Load Test 1-30,text,true,,579,242,43,43,http://localhost:3000/auth/login,1313,0,0
+1775409562220,19,POST Create Product,200,OK,Load Test 1-39,text,true,,5635,482,43,43,http://localhost:3000/products,19,0,0
+1775409562236,15,POST Create Product,200,OK,Load Test 1-52,text,true,,5635,482,44,44,http://localhost:3000/products,15,0,0
+1775409562237,18,GET Products,200,OK,Load Test 1-30,text,true,,5635,140,44,44,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409562255,10,POST Create Product,200,OK,Load Test 1-30,text,true,,5635,482,44,44,http://localhost:3000/products,9,0,0
+1775409561034,1263,POST Login,200,OK,Load Test 1-40,text,true,,579,242,44,44,http://localhost:3000/auth/login,1263,0,0
+1775409562297,7,GET Products,200,OK,Load Test 1-40,text,true,,5635,140,44,44,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562304,7,POST Create Product,200,OK,Load Test 1-40,text,true,,5635,482,44,44,http://localhost:3000/products,7,0,0
+1775409561043,1295,POST Login,200,OK,Load Test 1-53,text,true,,579,242,44,44,http://localhost:3000/auth/login,1295,0,1
+1775409561114,1229,POST Login,200,OK,Load Test 1-41,text,true,,579,242,45,45,http://localhost:3000/auth/login,1229,0,0
+1775409562338,9,GET Products,200,OK,Load Test 1-53,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409561114,1237,POST Login,200,OK,Load Test 1-25,text,true,,579,242,45,45,http://localhost:3000/auth/login,1237,0,0
+1775409562343,10,GET Products,200,OK,Load Test 1-41,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409562348,8,POST Create Product,200,OK,Load Test 1-53,text,true,,5635,482,45,45,http://localhost:3000/products,8,0,0
+1775409562351,10,GET Products,200,OK,Load Test 1-25,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409562353,11,POST Create Product,200,OK,Load Test 1-41,text,true,,5635,482,45,45,http://localhost:3000/products,11,0,0
+1775409562361,9,POST Create Product,200,OK,Load Test 1-25,text,true,,5635,482,45,45,http://localhost:3000/products,9,0,0
+1775409561129,1275,POST Login,200,OK,Load Test 1-31,text,true,,579,242,45,45,http://localhost:3000/auth/login,1275,0,0
+1775409562405,6,GET Products,200,OK,Load Test 1-31,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562412,5,POST Create Product,200,OK,Load Test 1-31,text,true,,5635,482,45,45,http://localhost:3000/products,5,0,0
+1775409561135,1313,POST Login,200,OK,Load Test 1-54,text,true,,579,242,46,46,http://localhost:3000/auth/login,1313,0,2
+1775409562449,6,GET Products,200,OK,Load Test 1-54,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409561203,1252,POST Login,200,OK,Load Test 1-22,text,true,,579,242,46,46,http://localhost:3000/auth/login,1252,0,0
+1775409561236,1225,POST Login,200,OK,Load Test 1-55,text,true,,579,242,46,46,http://localhost:3000/auth/login,1225,0,3
+1775409562455,7,POST Create Product,200,OK,Load Test 1-54,text,true,,5635,482,46,46,http://localhost:3000/products,7,0,0
+1775409562456,8,GET Products,200,OK,Load Test 1-22,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409562462,7,GET Products,200,OK,Load Test 1-55,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562464,7,POST Create Product,200,OK,Load Test 1-22,text,true,,5635,482,46,46,http://localhost:3000/products,7,0,0
+1775409562470,7,POST Create Product,200,OK,Load Test 1-55,text,true,,5635,482,45,45,http://localhost:3000/products,7,0,0
+1775409561255,1254,POST Login,200,OK,Load Test 1-42,text,true,,579,242,45,45,http://localhost:3000/auth/login,1254,0,0
+1775409562510,6,GET Products,200,OK,Load Test 1-42,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562517,6,POST Create Product,200,OK,Load Test 1-42,text,true,,5635,482,45,45,http://localhost:3000/products,6,0,0
+1775409561281,1266,POST Login,200,OK,Load Test 1-32,text,true,,579,242,46,46,http://localhost:3000/auth/login,1266,0,0
+1775409561297,1258,POST Login,200,OK,Load Test 1-43,text,true,,579,242,46,46,http://localhost:3000/auth/login,1258,0,0
+1775409562548,8,GET Products,200,OK,Load Test 1-32,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409561340,1220,POST Login,200,OK,Load Test 1-56,text,true,,579,242,46,46,http://localhost:3000/auth/login,1220,0,3
+1775409562555,7,GET Products,200,OK,Load Test 1-43,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562556,9,POST Create Product,200,OK,Load Test 1-32,text,true,,5635,482,46,46,http://localhost:3000/products,9,0,0
+1775409562560,15,GET Products,200,OK,Load Test 1-56,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409562562,14,POST Create Product,200,OK,Load Test 1-43,text,true,,5635,482,46,46,http://localhost:3000/products,14,0,0
+1775409562575,7,POST Create Product,200,OK,Load Test 1-56,text,true,,5635,482,46,46,http://localhost:3000/products,7,0,0
+1775409561402,1206,POST Login,200,OK,Load Test 1-33,text,true,,579,242,46,46,http://localhost:3000/auth/login,1206,0,0
+1775409562609,6,GET Products,200,OK,Load Test 1-33,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562616,6,POST Create Product,200,OK,Load Test 1-33,text,true,,5635,482,46,46,http://localhost:3000/products,6,0,0
+1775409561422,1228,POST Login,200,OK,Load Test 1-26,text,true,,579,242,47,47,http://localhost:3000/auth/login,1228,0,0
+1775409561543,1113,POST Login,200,OK,Load Test 1-58,text,true,,579,242,47,47,http://localhost:3000/auth/login,1113,0,6
+1775409562651,6,GET Products,200,OK,Load Test 1-26,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409561436,1222,POST Login,200,OK,Load Test 1-57,text,true,,579,242,47,47,http://localhost:3000/auth/login,1222,0,2
+1775409562657,10,POST Create Product,200,OK,Load Test 1-26,text,true,,5635,482,47,47,http://localhost:3000/products,10,0,0
+1775409562656,12,GET Products,200,OK,Load Test 1-58,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409562659,12,GET Products,200,OK,Load Test 1-57,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409562668,9,POST Create Product,200,OK,Load Test 1-58,text,true,,5635,482,47,47,http://localhost:3000/products,8,0,0
+1775409562671,7,POST Create Product,200,OK,Load Test 1-57,text,true,,5635,482,47,47,http://localhost:3000/products,7,0,0
+1775409561583,1122,POST Login,200,OK,Load Test 1-44,text,true,,579,242,47,47,http://localhost:3000/auth/login,1122,0,0
+1775409562705,6,GET Products,200,OK,Load Test 1-44,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562711,6,POST Create Product,200,OK,Load Test 1-44,text,true,,5635,482,47,47,http://localhost:3000/products,6,0,0
+1775409561605,1148,POST Login,200,OK,Load Test 1-27,text,true,,579,242,48,48,http://localhost:3000/auth/login,1148,0,0
+1775409561650,1105,POST Login,200,OK,Load Test 1-59,text,true,,579,242,48,48,http://localhost:3000/auth/login,1105,0,1
+1775409561654,1102,POST Login,200,OK,Load Test 1-45,text,true,,579,242,48,48,http://localhost:3000/auth/login,1102,0,0
+1775409562754,9,GET Products,200,OK,Load Test 1-27,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409562756,8,GET Products,200,OK,Load Test 1-45,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409562756,9,GET Products,200,OK,Load Test 1-59,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409562763,8,POST Create Product,200,OK,Load Test 1-27,text,true,,5635,482,48,48,http://localhost:3000/products,8,0,0
+1775409562764,9,POST Create Product,200,OK,Load Test 1-45,text,true,,5635,482,48,48,http://localhost:3000/products,9,0,0
+1775409562766,8,POST Create Product,200,OK,Load Test 1-59,text,true,,5635,482,48,48,http://localhost:3000/products,8,0,0
+1775409561730,1077,POST Login,200,OK,Load Test 1-34,text,true,,579,242,48,48,http://localhost:3000/auth/login,1077,0,0
+1775409562808,6,GET Products,200,OK,Load Test 1-34,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562815,6,POST Create Product,200,OK,Load Test 1-34,text,true,,5635,482,48,48,http://localhost:3000/products,6,0,0
+1775409561758,1093,POST Login,200,OK,Load Test 1-46,text,true,,579,242,49,49,http://localhost:3000/auth/login,1093,0,0
+1775409561745,1109,POST Login,200,OK,Load Test 1-60,text,true,,579,242,49,49,http://localhost:3000/auth/login,1109,0,1
+1775409562851,6,GET Products,200,OK,Load Test 1-46,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409561802,1057,POST Login,200,OK,Load Test 1-28,text,true,,579,242,49,49,http://localhost:3000/auth/login,1057,0,0
+1775409562854,9,GET Products,200,OK,Load Test 1-60,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409562857,8,POST Create Product,200,OK,Load Test 1-46,text,true,,5635,482,49,49,http://localhost:3000/products,8,0,0
+1775409562859,11,GET Products,200,OK,Load Test 1-28,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409562863,9,POST Create Product,200,OK,Load Test 1-60,text,true,,5635,482,49,49,http://localhost:3000/products,9,0,0
+1775409562870,8,POST Create Product,200,OK,Load Test 1-28,text,true,,5635,482,49,49,http://localhost:3000/products,8,0,0
+1775409561844,1066,POST Login,200,OK,Load Test 1-61,text,true,,579,242,49,49,http://localhost:3000/auth/login,1066,0,1
+1775409562911,7,GET Products,200,OK,Load Test 1-61,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562918,7,POST Create Product,200,OK,Load Test 1-61,text,true,,5635,482,49,49,http://localhost:3000/products,7,0,0
+1775409561863,1089,POST Login,200,OK,Load Test 1-47,text,true,,579,242,50,50,http://localhost:3000/auth/login,1089,0,0
+1775409561865,1088,POST Login,200,OK,Load Test 1-35,text,true,,579,242,50,50,http://localhost:3000/auth/login,1088,0,0
+1775409562952,7,GET Products,200,OK,Load Test 1-47,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562953,8,GET Products,200,OK,Load Test 1-35,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409561905,1058,POST Login,200,OK,Load Test 1-23,text,true,,579,242,50,50,http://localhost:3000/auth/login,1058,0,0
+1775409562959,10,POST Create Product,200,OK,Load Test 1-47,text,true,,5635,482,50,50,http://localhost:3000/products,10,0,0
+1775409562961,10,POST Create Product,200,OK,Load Test 1-35,text,true,,5635,482,50,50,http://localhost:3000/products,10,0,0
+1775409562963,10,GET Products,200,OK,Load Test 1-23,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409562973,7,POST Create Product,200,OK,Load Test 1-23,text,true,,5635,482,50,50,http://localhost:3000/products,7,0,0
+1775409561926,1082,POST Login,200,OK,Load Test 1-48,text,true,,579,242,49,49,http://localhost:3000/auth/login,1082,0,0
+1775409563009,8,GET Products,200,OK,Load Test 1-48,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409563017,6,POST Create Product,200,OK,Load Test 1-48,text,true,,5635,482,49,49,http://localhost:3000/products,6,0,0
+1775409561943,1109,POST Login,200,OK,Load Test 1-62,text,true,,579,242,50,50,http://localhost:3000/auth/login,1109,0,1
+1775409563053,6,GET Products,200,OK,Load Test 1-62,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409561966,1093,POST Login,200,OK,Load Test 1-36,text,true,,579,242,50,50,http://localhost:3000/auth/login,1093,0,0
+1775409563059,6,POST Create Product,200,OK,Load Test 1-62,text,true,,5635,482,50,50,http://localhost:3000/products,6,0,0
+1775409561974,1092,POST Login,200,OK,Load Test 1-49,text,true,,579,242,50,50,http://localhost:3000/auth/login,1092,0,0
+1775409563060,7,GET Products,200,OK,Load Test 1-36,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563066,11,GET Products,200,OK,Load Test 1-49,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409563067,11,POST Create Product,200,OK,Load Test 1-36,text,true,,5635,482,50,50,http://localhost:3000/products,11,0,0
+1775409563077,6,POST Create Product,200,OK,Load Test 1-49,text,true,,5635,482,50,50,http://localhost:3000/products,6,0,0
+1775409561989,1117,POST Login,200,OK,Load Test 1-24,text,true,,579,242,50,50,http://localhost:3000/auth/login,1117,0,0
+1775409563106,6,GET Products,200,OK,Load Test 1-24,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563113,5,POST Create Product,200,OK,Load Test 1-24,text,true,,5635,482,50,50,http://localhost:3000/products,5,0,0
+1775409562038,1109,POST Login,200,OK,Load Test 1-50,text,true,,579,242,50,50,http://localhost:3000/auth/login,1109,0,0
+1775409563148,5,GET Products,200,OK,Load Test 1-50,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409562045,1110,POST Login,200,OK,Load Test 1-63,text,true,,579,242,50,50,http://localhost:3000/auth/login,1110,0,2
+1775409563153,7,POST Create Product,200,OK,Load Test 1-50,text,true,,5635,482,50,50,http://localhost:3000/products,7,0,0
+1775409563155,6,GET Products,200,OK,Load Test 1-63,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562086,1078,POST Login,200,OK,Load Test 1-37,text,true,,579,242,50,50,http://localhost:3000/auth/login,1078,0,0
+1775409563162,8,POST Create Product,200,OK,Load Test 1-63,text,true,,5635,482,50,50,http://localhost:3000/products,8,0,0
+1775409563165,6,GET Products,200,OK,Load Test 1-37,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563171,5,POST Create Product,200,OK,Load Test 1-37,text,true,,5635,482,50,50,http://localhost:3000/products,5,0,0
+1775409562108,1091,POST Login,200,OK,Load Test 1-51,text,true,,579,242,50,50,http://localhost:3000/auth/login,1091,0,0
+1775409563199,6,GET Products,200,OK,Load Test 1-51,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563206,5,POST Create Product,200,OK,Load Test 1-51,text,true,,5635,482,50,50,http://localhost:3000/products,5,0,0
+1775409562145,1101,POST Login,200,OK,Load Test 1-64,text,true,,579,242,51,51,http://localhost:3000/auth/login,1101,0,1
+1775409562173,1075,POST Login,200,OK,Load Test 1-38,text,true,,579,242,51,51,http://localhost:3000/auth/login,1075,0,0
+1775409563247,7,GET Products,200,OK,Load Test 1-64,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563249,7,GET Products,200,OK,Load Test 1-38,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562239,1019,POST Login,200,OK,Load Test 1-39,text,true,,579,242,51,51,http://localhost:3000/auth/login,1019,0,0
+1775409563254,9,POST Create Product,200,OK,Load Test 1-64,text,true,,5635,482,51,51,http://localhost:3000/products,9,0,0
+1775409563256,8,POST Create Product,200,OK,Load Test 1-38,text,true,,5635,482,51,51,http://localhost:3000/products,8,0,0
+1775409563258,7,GET Products,200,OK,Load Test 1-39,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563265,5,POST Create Product,200,OK,Load Test 1-39,text,true,,5635,482,51,51,http://localhost:3000/products,5,0,0
+1775409562243,1050,POST Login,200,OK,Load Test 1-65,text,true,,579,242,51,51,http://localhost:3000/auth/login,1050,0,1
+1775409563294,5,GET Products,200,OK,Load Test 1-65,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409563300,6,POST Create Product,200,OK,Load Test 1-65,text,true,,5635,482,51,51,http://localhost:3000/products,6,0,0
+1775409562252,1088,POST Login,200,OK,Load Test 1-52,text,true,,579,242,51,51,http://localhost:3000/auth/login,1088,0,0
+1775409562266,1076,POST Login,200,OK,Load Test 1-30,text,true,,579,242,52,52,http://localhost:3000/auth/login,1076,0,0
+1775409563343,6,GET Products,200,OK,Load Test 1-30,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563340,11,GET Products,200,OK,Load Test 1-52,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409562312,1042,POST Login,200,OK,Load Test 1-40,text,true,,579,242,52,52,http://localhost:3000/auth/login,1042,0,0
+1775409563349,8,POST Create Product,200,OK,Load Test 1-30,text,true,,5635,482,52,52,http://localhost:3000/products,8,0,0
+1775409563351,8,POST Create Product,200,OK,Load Test 1-52,text,true,,5635,482,52,52,http://localhost:3000/products,8,0,0
+1775409563354,7,GET Products,200,OK,Load Test 1-40,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563361,7,POST Create Product,200,OK,Load Test 1-40,text,true,,5635,482,52,52,http://localhost:3000/products,7,0,0
+1775409562343,1048,POST Login,200,OK,Load Test 1-66,text,true,,579,242,52,52,http://localhost:3000/auth/login,1048,0,1
+1775409563391,7,GET Products,200,OK,Load Test 1-66,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563399,6,POST Create Product,200,OK,Load Test 1-66,text,true,,5635,482,52,52,http://localhost:3000/products,6,0,0
+1775409562364,1075,POST Login,200,OK,Load Test 1-41,text,true,,579,242,52,52,http://localhost:3000/auth/login,1074,0,0
+1775409562357,1083,POST Login,200,OK,Load Test 1-53,text,true,,579,242,52,52,http://localhost:3000/auth/login,1083,0,0
+1775409563439,7,GET Products,200,OK,Load Test 1-41,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563441,7,GET Products,200,OK,Load Test 1-53,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562370,1080,POST Login,200,OK,Load Test 1-25,text,true,,579,242,53,53,http://localhost:3000/auth/login,1080,0,0
+1775409563446,9,POST Create Product,200,OK,Load Test 1-41,text,true,,5635,482,53,53,http://localhost:3000/products,9,0,0
+1775409563448,8,POST Create Product,200,OK,Load Test 1-53,text,true,,5635,482,53,53,http://localhost:3000/products,8,0,0
+1775409562418,1073,POST Login,200,OK,Load Test 1-31,text,true,,579,242,53,53,http://localhost:3000/auth/login,1073,0,0
+1775409563491,6,GET Products,200,OK,Load Test 1-31,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563497,8,POST Create Product,200,OK,Load Test 1-31,text,true,,5635,482,53,53,http://localhost:3000/products,8,0,0
+1775409562444,1084,POST Login,200,OK,Load Test 1-67,text,true,,579,242,53,53,http://localhost:3000/auth/login,1084,0,1
+1775409562463,1069,POST Login,200,OK,Load Test 1-54,text,true,,579,242,53,53,http://localhost:3000/auth/login,1069,0,0
+1775409563528,7,GET Products,200,OK,Load Test 1-67,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562477,1061,POST Login,200,OK,Load Test 1-55,text,true,,579,242,53,53,http://localhost:3000/auth/login,1061,0,0
+1775409563533,8,GET Products,200,OK,Load Test 1-54,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409563535,8,POST Create Product,200,OK,Load Test 1-67,text,true,,5635,482,54,54,http://localhost:3000/products,8,0,0
+1775409563538,10,GET Products,200,OK,Load Test 1-55,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409563541,8,POST Create Product,200,OK,Load Test 1-54,text,true,,5635,482,54,54,http://localhost:3000/products,8,0,0
+1775409563548,6,POST Create Product,200,OK,Load Test 1-55,text,true,,5635,482,54,54,http://localhost:3000/products,6,0,0
+1775409562523,1063,POST Login,200,OK,Load Test 1-42,text,true,,579,242,54,54,http://localhost:3000/auth/login,1063,0,0
+1775409563586,6,GET Products,200,OK,Load Test 1-42,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563592,7,POST Create Product,200,OK,Load Test 1-42,text,true,,5635,482,54,54,http://localhost:3000/products,7,0,0
+1775409562544,1077,POST Login,200,OK,Load Test 1-68,text,true,,579,242,54,54,http://localhost:3000/auth/login,1077,0,1
+1775409562565,1058,POST Login,200,OK,Load Test 1-32,text,true,,579,242,54,54,http://localhost:3000/auth/login,1058,0,0
+1775409563622,6,GET Products,200,OK,Load Test 1-68,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563623,6,GET Products,200,OK,Load Test 1-32,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562576,1058,POST Login,200,OK,Load Test 1-43,text,true,,579,242,54,54,http://localhost:3000/auth/login,1058,0,0
+1775409563630,5,POST Create Product,200,OK,Load Test 1-32,text,true,,5635,482,54,54,http://localhost:3000/products,5,0,0
+1775409563628,8,POST Create Product,200,OK,Load Test 1-68,text,true,,5635,482,54,54,http://localhost:3000/products,8,0,0
+1775409563634,8,GET Products,200,OK,Load Test 1-43,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409563642,8,POST Create Product,200,OK,Load Test 1-43,text,true,,5635,482,55,55,http://localhost:3000/products,8,0,0
+1775409562583,1097,POST Login,200,OK,Load Test 1-56,text,true,,579,242,55,55,http://localhost:3000/auth/login,1097,0,0
+1775409563680,7,GET Products,200,OK,Load Test 1-56,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563687,6,POST Create Product,200,OK,Load Test 1-56,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409562622,1096,POST Login,200,OK,Load Test 1-33,text,true,,579,242,55,55,http://localhost:3000/auth/login,1096,0,0
+1775409562642,1078,POST Login,200,OK,Load Test 1-69,text,true,,579,242,55,55,http://localhost:3000/auth/login,1078,0,1
+1775409563719,6,GET Products,200,OK,Load Test 1-33,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563720,6,GET Products,200,OK,Load Test 1-69,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563726,6,POST Create Product,200,OK,Load Test 1-33,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409563727,8,POST Create Product,200,OK,Load Test 1-69,text,true,,5635,482,55,55,http://localhost:3000/products,8,0,0
+1775409562667,1068,POST Login,200,OK,Load Test 1-26,text,true,,579,242,55,55,http://localhost:3000/auth/login,1068,0,0
+1775409563736,6,GET Products,200,OK,Load Test 1-26,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563742,8,POST Create Product,200,OK,Load Test 1-26,text,true,,5635,482,56,56,http://localhost:3000/products,8,0,0
+1775409562677,1110,POST Login,200,OK,Load Test 1-58,text,true,,579,242,55,55,http://localhost:3000/auth/login,1110,0,0
+1775409563788,7,GET Products,200,OK,Load Test 1-58,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563795,6,POST Create Product,200,OK,Load Test 1-58,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409562678,1141,POST Login,200,OK,Load Test 1-57,text,true,,579,242,55,55,http://localhost:3000/auth/login,1141,0,0
+1775409562718,1106,POST Login,200,OK,Load Test 1-44,text,true,,579,242,55,55,http://localhost:3000/auth/login,1106,0,0
+1775409563819,7,GET Products,200,OK,Load Test 1-57,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563824,7,GET Products,200,OK,Load Test 1-44,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563827,7,POST Create Product,200,OK,Load Test 1-57,text,true,,5635,482,55,55,http://localhost:3000/products,7,0,0
+1775409562745,1093,POST Login,200,OK,Load Test 1-70,text,true,,579,242,55,55,http://localhost:3000/auth/login,1093,0,1
+1775409563831,8,POST Create Product,200,OK,Load Test 1-44,text,true,,5635,482,55,55,http://localhost:3000/products,8,0,0
+1775409563838,11,GET Products,200,OK,Load Test 1-70,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409563849,6,POST Create Product,200,OK,Load Test 1-70,text,true,,5635,482,56,56,http://localhost:3000/products,6,0,0
+1775409562771,1115,POST Login,200,OK,Load Test 1-27,text,true,,579,242,56,56,http://localhost:3000/auth/login,1115,0,0
+1775409563886,8,GET Products,200,OK,Load Test 1-27,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409563895,10,POST Create Product,200,OK,Load Test 1-27,text,true,,5635,482,56,56,http://localhost:3000/products,10,0,0
+1775409562773,1147,POST Login,200,OK,Load Test 1-45,text,true,,579,242,55,55,http://localhost:3000/auth/login,1147,0,0
+1775409562774,1151,POST Login,200,OK,Load Test 1-59,text,true,,579,242,55,55,http://localhost:3000/auth/login,1151,0,0
+1775409563921,5,GET Products,200,OK,Load Test 1-45,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409563927,9,POST Create Product,200,OK,Load Test 1-45,text,true,,5635,482,55,55,http://localhost:3000/products,9,0,0
+1775409563926,10,GET Products,200,OK,Load Test 1-59,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409563936,10,POST Create Product,200,OK,Load Test 1-59,text,true,,5635,482,56,56,http://localhost:3000/products,10,0,0
+1775409562821,1126,POST Login,200,OK,Load Test 1-34,text,true,,579,242,56,56,http://localhost:3000/auth/login,1126,0,0
+1775409563947,6,GET Products,200,OK,Load Test 1-34,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563953,6,POST Create Product,200,OK,Load Test 1-34,text,true,,5635,482,56,56,http://localhost:3000/products,6,0,0
+1775409562842,1151,POST Login,200,OK,Load Test 1-71,text,true,,579,242,56,56,http://localhost:3000/auth/login,1151,0,1
+1775409563993,8,GET Products,200,OK,Load Test 1-71,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409564002,6,POST Create Product,200,OK,Load Test 1-71,text,true,,5635,482,56,56,http://localhost:3000/products,6,0,0
+1775409562865,1156,POST Login,200,OK,Load Test 1-46,text,true,,579,242,56,56,http://localhost:3000/auth/login,1156,0,0
+1775409564022,6,GET Products,200,OK,Load Test 1-46,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409562872,1157,POST Login,200,OK,Load Test 1-60,text,true,,579,242,56,56,http://localhost:3000/auth/login,1157,0,0
+1775409564028,6,POST Create Product,200,OK,Load Test 1-46,text,true,,5635,482,56,56,http://localhost:3000/products,6,0,0
+1775409564029,6,GET Products,200,OK,Load Test 1-60,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409564035,6,POST Create Product,200,OK,Load Test 1-60,text,true,,5635,482,57,57,http://localhost:3000/products,6,0,0
+1775409562878,1167,POST Login,200,OK,Load Test 1-28,text,true,,579,242,57,57,http://localhost:3000/auth/login,1167,0,0
+1775409564046,6,GET Products,200,OK,Load Test 1-28,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409564052,8,POST Create Product,200,OK,Load Test 1-28,text,true,,5635,482,57,57,http://localhost:3000/products,8,0,0
+1775409562925,1170,POST Login,200,OK,Load Test 1-61,text,true,,579,242,56,56,http://localhost:3000/auth/login,1169,0,0
+1775409564095,7,GET Products,200,OK,Load Test 1-61,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409564103,8,POST Create Product,200,OK,Load Test 1-61,text,true,,5635,482,56,56,http://localhost:3000/products,8,0,0
+1775409562943,1181,POST Login,200,OK,Load Test 1-72,text,true,,579,242,56,56,http://localhost:3000/auth/login,1181,0,1
+1775409564125,7,GET Products,200,OK,Load Test 1-72,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562969,1165,POST Login,200,OK,Load Test 1-47,text,true,,579,242,56,56,http://localhost:3000/auth/login,1165,0,0
+1775409564132,8,POST Create Product,200,OK,Load Test 1-72,text,true,,5635,482,57,57,http://localhost:3000/products,8,0,0
+1775409564135,7,GET Products,200,OK,Load Test 1-47,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409562971,1174,POST Login,200,OK,Load Test 1-35,text,true,,579,242,57,57,http://localhost:3000/auth/login,1174,0,0
+1775409564142,11,POST Create Product,200,OK,Load Test 1-47,text,true,,5635,482,57,57,http://localhost:3000/products,11,0,0
+1775409564146,10,GET Products,200,OK,Load Test 1-35,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409564156,6,POST Create Product,200,OK,Load Test 1-35,text,true,,5635,482,57,57,http://localhost:3000/products,6,0,0
+1775409563023,1175,POST Login,200,OK,Load Test 1-48,text,true,,579,242,57,57,http://localhost:3000/auth/login,1175,0,0
+1775409564199,7,GET Products,200,OK,Load Test 1-48,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409564206,6,POST Create Product,200,OK,Load Test 1-48,text,true,,5635,482,57,57,http://localhost:3000/products,6,0,0
+1775409563040,1192,POST Login,200,OK,Load Test 1-73,text,true,,579,242,57,57,http://localhost:3000/auth/login,1191,0,1
+1775409564232,22,GET Products,200,OK,Load Test 1-73,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,22,0,0
+1775409563066,1187,POST Login,200,OK,Load Test 1-62,text,true,,579,242,58,58,http://localhost:3000/auth/login,1187,0,0
+1775409563078,1177,POST Login,200,OK,Load Test 1-36,text,true,,579,242,58,58,http://localhost:3000/auth/login,1177,0,0
+1775409564255,16,GET Products,200,OK,Load Test 1-62,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,16,0,0
+1775409564254,33,POST Create Product,200,OK,Load Test 1-73,text,true,,5635,482,58,58,http://localhost:3000/products,33,0,0
+1775409564271,17,POST Create Product,200,OK,Load Test 1-62,text,true,,5635,482,58,58,http://localhost:3000/products,17,0,0
+1775409563083,1248,POST Login,200,OK,Load Test 1-49,text,true,,579,242,58,58,http://localhost:3000/auth/login,1247,0,0
+1775409564331,9,GET Products,200,OK,Load Test 1-49,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409564341,11,POST Create Product,200,OK,Load Test 1-49,text,true,,5635,482,59,59,http://localhost:3000/products,11,0,0
+1775409563141,1248,POST Login,200,OK,Load Test 1-74,text,true,,579,242,59,59,http://localhost:3000/auth/login,1248,0,1
+1775409563160,1237,POST Login,200,OK,Load Test 1-50,text,true,,579,242,59,59,http://localhost:3000/auth/login,1237,0,0
+1775409564390,10,GET Products,200,OK,Load Test 1-74,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409564397,15,GET Products,200,OK,Load Test 1-50,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409564400,17,POST Create Product,200,OK,Load Test 1-74,text,true,,5635,482,59,59,http://localhost:3000/products,17,0,0
+1775409564412,17,POST Create Product,200,OK,Load Test 1-50,text,true,,5635,482,59,59,http://localhost:3000/products,17,0,0
+1775409563171,1294,POST Login,200,OK,Load Test 1-63,text,true,,579,242,60,60,http://localhost:3000/auth/login,1294,0,0
+1775409564466,11,GET Products,200,OK,Load Test 1-63,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409564477,13,POST Create Product,200,OK,Load Test 1-63,text,true,,5635,482,60,60,http://localhost:3000/products,13,0,0
+1775409563177,1342,POST Login,200,OK,Load Test 1-37,text,true,,579,242,60,60,http://localhost:3000/auth/login,1342,0,0
+1775409564519,12,GET Products,200,OK,Load Test 1-37,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409564531,16,POST Create Product,200,OK,Load Test 1-37,text,true,,5635,482,61,61,http://localhost:3000/products,16,0,0
+1775409563211,1373,POST Login,200,OK,Load Test 1-51,text,true,,579,242,61,61,http://localhost:3000/auth/login,1373,0,0
+1775409564585,7,GET Products,200,OK,Load Test 1-51,text,true,,5635,140,61,61,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563241,1357,POST Login,200,OK,Load Test 1-75,text,true,,579,242,61,61,http://localhost:3000/auth/login,1357,0,1
+1775409564592,12,POST Create Product,200,OK,Load Test 1-51,text,true,,5635,482,61,61,http://localhost:3000/products,12,0,0
+1775409564599,17,GET Products,200,OK,Load Test 1-75,text,true,,5635,140,61,61,http://localhost:3000/products?page=1&limit=10,17,0,0
+1775409564617,11,POST Create Product,200,OK,Load Test 1-75,text,true,,5635,482,61,61,http://localhost:3000/products,11,0,0
+1775409563263,1389,POST Login,200,OK,Load Test 1-64,text,true,,579,242,62,62,http://localhost:3000/auth/login,1389,0,0
+1775409564652,8,GET Products,200,OK,Load Test 1-64,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409564660,7,POST Create Product,200,OK,Load Test 1-64,text,true,,5635,482,62,62,http://localhost:3000/products,7,0,0
+1775409563264,1404,POST Login,200,OK,Load Test 1-38,text,true,,579,242,62,62,http://localhost:3000/auth/login,1404,0,0
+1775409564669,6,GET Products,200,OK,Load Test 1-38,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409564675,7,POST Create Product,200,OK,Load Test 1-38,text,true,,5635,482,62,62,http://localhost:3000/products,7,0,0
+1775409563271,1432,POST Login,200,OK,Load Test 1-39,text,true,,579,242,62,62,http://localhost:3000/auth/login,1432,0,0
+1775409564704,8,GET Products,200,OK,Load Test 1-39,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409564712,7,POST Create Product,200,OK,Load Test 1-39,text,true,,5635,482,62,62,http://localhost:3000/products,7,0,0
+1775409563307,1413,POST Login,200,OK,Load Test 1-65,text,true,,579,242,62,62,http://localhost:3000/auth/login,1413,0,0
+1775409564720,7,GET Products,200,OK,Load Test 1-65,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409564728,7,POST Create Product,200,OK,Load Test 1-65,text,true,,5635,482,62,62,http://localhost:3000/products,7,0,0
+1775409563342,1419,POST Login,200,OK,Load Test 1-76,text,true,,579,242,63,63,http://localhost:3000/auth/login,1419,0,1
+1775409564762,7,GET Products,200,OK,Load Test 1-76,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563357,1419,POST Login,200,OK,Load Test 1-30,text,true,,579,242,63,63,http://localhost:3000/auth/login,1419,0,0
+1775409564770,9,POST Create Product,200,OK,Load Test 1-76,text,true,,5635,482,63,63,http://localhost:3000/products,9,0,0
+1775409564777,11,GET Products,200,OK,Load Test 1-30,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409564788,9,POST Create Product,200,OK,Load Test 1-30,text,true,,5635,482,63,63,http://localhost:3000/products,9,0,0
+1775409563359,1457,POST Login,200,OK,Load Test 1-52,text,true,,579,242,62,62,http://localhost:3000/auth/login,1457,0,0
+1775409564817,7,GET Products,200,OK,Load Test 1-52,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409564824,8,POST Create Product,200,OK,Load Test 1-52,text,true,,5635,482,62,62,http://localhost:3000/products,8,0,0
+1775409563368,1467,POST Login,200,OK,Load Test 1-40,text,true,,579,242,62,62,http://localhost:3000/auth/login,1467,0,0
+1775409564835,9,GET Products,200,OK,Load Test 1-40,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409564844,7,POST Create Product,200,OK,Load Test 1-40,text,true,,5635,482,63,63,http://localhost:3000/products,7,0,0
+1775409563405,1466,POST Login,200,OK,Load Test 1-66,text,true,,579,242,63,63,http://localhost:3000/auth/login,1466,0,0
+1775409564872,7,GET Products,200,OK,Load Test 1-66,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409564879,7,POST Create Product,200,OK,Load Test 1-66,text,true,,5635,482,63,63,http://localhost:3000/products,7,0,0
+1775409563444,1452,POST Login,200,OK,Load Test 1-77,text,true,,579,242,63,63,http://localhost:3000/auth/login,1452,0,1
+1775409564897,6,GET Products,200,OK,Load Test 1-77,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409564904,8,POST Create Product,200,OK,Load Test 1-77,text,true,,5635,482,63,63,http://localhost:3000/products,8,0,0
+1775409563455,1485,POST Login,200,OK,Load Test 1-41,text,true,,579,242,64,64,http://localhost:3000/auth/login,1485,0,0
+1775409564940,7,GET Products,200,OK,Load Test 1-41,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563456,1494,POST Login,200,OK,Load Test 1-53,text,true,,579,242,64,64,http://localhost:3000/auth/login,1494,0,0
+1775409564947,15,POST Create Product,200,OK,Load Test 1-41,text,true,,5635,482,64,64,http://localhost:3000/products,15,0,0
+1775409564951,12,GET Products,200,OK,Load Test 1-53,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409564963,7,POST Create Product,200,OK,Load Test 1-53,text,true,,5635,482,64,64,http://localhost:3000/products,7,0,0
+1775409563505,1493,POST Login,200,OK,Load Test 1-31,text,true,,579,242,64,64,http://localhost:3000/auth/login,1493,0,0
+1775409564998,8,GET Products,200,OK,Load Test 1-31,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565006,26,POST Create Product,200,OK,Load Test 1-31,text,true,,5635,482,64,64,http://localhost:3000/products,26,0,0
+1775409563543,1489,POST Login,200,OK,Load Test 1-67,text,true,,579,242,64,64,http://localhost:3000/auth/login,1489,0,0
+1775409563550,1508,POST Login,200,OK,Load Test 1-54,text,true,,579,242,64,64,http://localhost:3000/auth/login,1508,0,0
+1775409565032,30,GET Products,200,OK,Load Test 1-67,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,30,0,0
+1775409563554,1509,POST Login,200,OK,Load Test 1-55,text,true,,579,242,64,64,http://localhost:3000/auth/login,1509,0,0
+1775409565059,8,GET Products,200,OK,Load Test 1-54,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565062,10,POST Create Product,200,OK,Load Test 1-67,text,true,,5635,482,64,64,http://localhost:3000/products,10,0,0
+1775409565063,12,GET Products,200,OK,Load Test 1-55,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409565067,11,POST Create Product,200,OK,Load Test 1-54,text,true,,5635,482,64,64,http://localhost:3000/products,11,0,0
+1775409565075,8,POST Create Product,200,OK,Load Test 1-55,text,true,,5635,482,64,64,http://localhost:3000/products,8,0,0
+1775409563599,1513,POST Login,200,OK,Load Test 1-42,text,true,,579,242,64,64,http://localhost:3000/auth/login,1513,0,0
+1775409565112,7,GET Products,200,OK,Load Test 1-42,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565119,6,POST Create Product,200,OK,Load Test 1-42,text,true,,5635,482,64,64,http://localhost:3000/products,5,0,0
+1775409563636,1492,POST Login,200,OK,Load Test 1-32,text,true,,579,242,64,64,http://localhost:3000/auth/login,1492,0,0
+1775409565128,5,GET Products,200,OK,Load Test 1-32,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565134,6,POST Create Product,200,OK,Load Test 1-32,text,true,,5635,482,65,65,http://localhost:3000/products,6,0,0
+1775409563636,1521,POST Login,200,OK,Load Test 1-68,text,true,,579,242,64,64,http://localhost:3000/auth/login,1521,0,0
+1775409565158,6,GET Products,200,OK,Load Test 1-68,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563643,1525,POST Login,200,OK,Load Test 1-79,text,true,,579,242,64,64,http://localhost:3000/auth/login,1525,0,1
+1775409565165,7,POST Create Product,200,OK,Load Test 1-68,text,true,,5635,482,64,64,http://localhost:3000/products,7,0,0
+1775409565168,7,GET Products,200,OK,Load Test 1-79,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565175,5,POST Create Product,200,OK,Load Test 1-79,text,true,,5635,482,64,64,http://localhost:3000/products,5,0,0
+1775409563650,1561,POST Login,200,OK,Load Test 1-43,text,true,,579,242,64,64,http://localhost:3000/auth/login,1561,0,0
+1775409565211,6,GET Products,200,OK,Load Test 1-43,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565217,6,POST Create Product,200,OK,Load Test 1-43,text,true,,5635,482,64,64,http://localhost:3000/products,6,0,0
+1775409563693,1534,POST Login,200,OK,Load Test 1-56,text,true,,579,242,64,64,http://localhost:3000/auth/login,1534,0,0
+1775409565228,6,GET Products,200,OK,Load Test 1-56,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565234,8,POST Create Product,200,OK,Load Test 1-56,text,true,,5635,482,65,65,http://localhost:3000/products,8,0,0
+1775409563733,1526,POST Login,200,OK,Load Test 1-33,text,true,,579,242,65,65,http://localhost:3000/auth/login,1526,0,0
+1775409565260,7,GET Products,200,OK,Load Test 1-33,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409563735,1535,POST Login,200,OK,Load Test 1-69,text,true,,579,242,65,65,http://localhost:3000/auth/login,1535,0,0
+1775409565267,7,POST Create Product,200,OK,Load Test 1-33,text,true,,5635,482,65,65,http://localhost:3000/products,7,0,0
+1775409565271,6,GET Products,200,OK,Load Test 1-69,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565277,6,POST Create Product,200,OK,Load Test 1-69,text,true,,5635,482,64,64,http://localhost:3000/products,6,0,0
+1775409563743,1567,POST Login,200,OK,Load Test 1-80,text,true,,579,242,64,64,http://localhost:3000/auth/login,1567,0,1
+1775409565310,7,GET Products,200,OK,Load Test 1-80,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565317,6,POST Create Product,200,OK,Load Test 1-80,text,true,,5635,482,64,64,http://localhost:3000/products,6,0,0
+1775409563801,1530,POST Login,200,OK,Load Test 1-58,text,true,,579,242,64,64,http://localhost:3000/auth/login,1530,0,0
+1775409565332,6,GET Products,200,OK,Load Test 1-58,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565338,6,POST Create Product,200,OK,Load Test 1-58,text,true,,5635,482,65,65,http://localhost:3000/products,6,0,0
+1775409563834,1523,POST Login,200,OK,Load Test 1-57,text,true,,579,242,65,65,http://localhost:3000/auth/login,1523,0,0
+1775409565357,6,GET Products,200,OK,Load Test 1-57,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565363,5,POST Create Product,200,OK,Load Test 1-57,text,true,,5635,482,65,65,http://localhost:3000/products,5,0,0
+1775409563839,1530,POST Login,200,OK,Load Test 1-44,text,true,,579,242,65,65,http://localhost:3000/auth/login,1530,0,0
+1775409565369,5,GET Products,200,OK,Load Test 1-44,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565374,6,POST Create Product,200,OK,Load Test 1-44,text,true,,5635,482,65,65,http://localhost:3000/products,6,0,0
+1775409563843,1560,POST Login,200,OK,Load Test 1-81,text,true,,579,242,65,65,http://localhost:3000/auth/login,1560,0,1
+1775409565403,9,GET Products,200,OK,Load Test 1-81,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565412,5,POST Create Product,200,OK,Load Test 1-81,text,true,,5635,482,65,65,http://localhost:3000/products,5,0,0
+1775409563855,1572,POST Login,200,OK,Load Test 1-70,text,true,,579,242,65,65,http://localhost:3000/auth/login,1572,0,0
+1775409565427,6,GET Products,200,OK,Load Test 1-70,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565433,6,POST Create Product,200,OK,Load Test 1-70,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409563936,1516,POST Login,200,OK,Load Test 1-45,text,true,,579,242,66,66,http://localhost:3000/auth/login,1516,0,0
+1775409565453,6,GET Products,200,OK,Load Test 1-45,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409563940,1523,POST Login,200,OK,Load Test 1-82,text,true,,579,242,66,66,http://localhost:3000/auth/login,1523,0,2
+1775409565459,6,POST Create Product,200,OK,Load Test 1-45,text,true,,5635,482,66,66,http://localhost:3000/products,5,0,0
+1775409565464,5,GET Products,200,OK,Load Test 1-82,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565470,8,POST Create Product,200,OK,Load Test 1-82,text,true,,5635,482,66,66,http://localhost:3000/products,8,0,0
+1775409563946,1549,POST Login,200,OK,Load Test 1-59,text,true,,579,242,66,66,http://localhost:3000/auth/login,1549,0,0
+1775409565496,5,GET Products,200,OK,Load Test 1-59,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565501,6,POST Create Product,200,OK,Load Test 1-59,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409563959,1561,POST Login,200,OK,Load Test 1-34,text,true,,579,242,66,66,http://localhost:3000/auth/login,1561,0,0
+1775409565520,6,GET Products,200,OK,Load Test 1-34,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565526,5,POST Create Product,200,OK,Load Test 1-34,text,true,,5635,482,66,66,http://localhost:3000/products,5,0,0
+1775409564008,1538,POST Login,200,OK,Load Test 1-71,text,true,,579,242,66,66,http://localhost:3000/auth/login,1538,0,0
+1775409565547,5,GET Products,200,OK,Load Test 1-71,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565552,6,POST Create Product,200,OK,Load Test 1-71,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564034,1527,POST Login,200,OK,Load Test 1-46,text,true,,579,242,66,66,http://localhost:3000/auth/login,1527,0,0
+1775409565561,6,GET Products,200,OK,Load Test 1-46,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565567,6,POST Create Product,200,OK,Load Test 1-46,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564041,1552,POST Login,200,OK,Load Test 1-60,text,true,,579,242,66,66,http://localhost:3000/auth/login,1552,0,0
+1775409565594,6,GET Products,200,OK,Load Test 1-60,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565601,6,POST Create Product,200,OK,Load Test 1-60,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564040,1575,POST Login,200,OK,Load Test 1-83,text,true,,579,242,66,66,http://localhost:3000/auth/login,1575,0,1
+1775409565615,7,GET Products,200,OK,Load Test 1-83,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565622,6,POST Create Product,200,OK,Load Test 1-83,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564111,1532,POST Login,200,OK,Load Test 1-61,text,true,,579,242,67,67,http://localhost:3000/auth/login,1532,0,0
+1775409565643,7,GET Products,200,OK,Load Test 1-61,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565650,6,POST Create Product,200,OK,Load Test 1-61,text,true,,5635,482,67,67,http://localhost:3000/products,6,0,0
+1775409564140,1521,POST Login,200,OK,Load Test 1-72,text,true,,579,242,67,67,http://localhost:3000/auth/login,1521,0,0
+1775409565662,5,GET Products,200,OK,Load Test 1-72,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409565667,5,POST Create Product,200,OK,Load Test 1-72,text,true,,5635,482,67,67,http://localhost:3000/products,5,0,0
+1775409564140,1553,POST Login,200,OK,Load Test 1-84,text,true,,579,242,67,67,http://localhost:3000/auth/login,1553,0,1
+1775409565694,6,GET Products,200,OK,Load Test 1-84,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565701,5,POST Create Product,200,OK,Load Test 1-84,text,true,,5635,482,67,67,http://localhost:3000/products,5,0,0
+1775409564153,1562,POST Login,200,OK,Load Test 1-47,text,true,,579,242,67,67,http://localhost:3000/auth/login,1562,0,0
+1775409565715,6,GET Products,200,OK,Load Test 1-47,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565722,6,POST Create Product,200,OK,Load Test 1-47,text,true,,5635,482,67,67,http://localhost:3000/products,6,0,0
+1775409564162,1582,POST Login,200,OK,Load Test 1-35,text,true,,579,242,68,68,http://localhost:3000/auth/login,1582,0,0
+1775409565744,6,GET Products,200,OK,Load Test 1-35,text,true,,5635,140,68,68,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565750,6,POST Create Product,200,OK,Load Test 1-35,text,true,,5635,482,68,68,http://localhost:3000/products,6,0,0
+1775409564213,1544,POST Login,200,OK,Load Test 1-48,text,true,,579,242,68,68,http://localhost:3000/auth/login,1544,0,0
+1775409565757,6,GET Products,200,OK,Load Test 1-48,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565764,6,POST Create Product,200,OK,Load Test 1-48,text,true,,5635,482,67,67,http://localhost:3000/products,6,0,0
+1775409564242,1551,POST Login,200,OK,Load Test 1-85,text,true,,579,242,67,67,http://localhost:3000/auth/login,1551,0,1
+1775409565794,7,GET Products,200,OK,Load Test 1-85,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565802,5,POST Create Product,200,OK,Load Test 1-85,text,true,,5635,482,67,67,http://localhost:3000/products,5,0,0
+1775409564287,1529,POST Login,200,OK,Load Test 1-73,text,true,,579,242,67,67,http://localhost:3000/auth/login,1528,0,0
+1775409565816,6,GET Products,200,OK,Load Test 1-73,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565823,6,POST Create Product,200,OK,Load Test 1-73,text,true,,5635,482,67,67,http://localhost:3000/products,6,0,0
+1775409564288,1552,POST Login,200,OK,Load Test 1-62,text,true,,579,242,67,67,http://localhost:3000/auth/login,1552,0,0
+1775409565840,6,GET Products,200,OK,Load Test 1-62,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565846,7,POST Create Product,200,OK,Load Test 1-62,text,true,,5635,482,67,67,http://localhost:3000/products,7,0,0
+1775409564340,1514,POST Login,200,OK,Load Test 1-86,text,true,,579,242,67,67,http://localhost:3000/auth/login,1514,0,1
+1775409565854,6,GET Products,200,OK,Load Test 1-86,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565860,7,POST Create Product,200,OK,Load Test 1-86,text,true,,5635,482,67,67,http://localhost:3000/products,7,0,0
+1775409564352,1541,POST Login,200,OK,Load Test 1-49,text,true,,579,242,67,67,http://localhost:3000/auth/login,1541,0,0
+1775409565893,8,GET Products,200,OK,Load Test 1-49,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565901,9,POST Create Product,200,OK,Load Test 1-49,text,true,,5635,482,67,67,http://localhost:3000/products,9,0,0
+1775409564417,1499,POST Login,200,OK,Load Test 1-74,text,true,,579,242,67,67,http://localhost:3000/auth/login,1499,0,0
+1775409565916,7,GET Products,200,OK,Load Test 1-74,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565923,8,POST Create Product,200,OK,Load Test 1-74,text,true,,5635,482,67,67,http://localhost:3000/products,8,0,0
+1775409564429,1515,POST Login,200,OK,Load Test 1-50,text,true,,579,242,67,67,http://localhost:3000/auth/login,1515,0,0
+1775409565944,7,GET Products,200,OK,Load Test 1-50,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565952,7,POST Create Product,200,OK,Load Test 1-50,text,true,,5635,482,67,67,http://localhost:3000/products,7,0,0
+1775409564444,1516,POST Login,200,OK,Load Test 1-87,text,true,,579,242,67,67,http://localhost:3000/auth/login,1516,0,1
+1775409565960,9,GET Products,200,OK,Load Test 1-87,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409565970,9,POST Create Product,200,OK,Load Test 1-87,text,true,,5635,482,67,67,http://localhost:3000/products,9,0,0
+1775409564490,1516,POST Login,200,OK,Load Test 1-63,text,true,,579,242,67,67,http://localhost:3000/auth/login,1516,0,0
+1775409566006,8,GET Products,200,OK,Load Test 1-63,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566014,7,POST Create Product,200,OK,Load Test 1-63,text,true,,5635,482,67,67,http://localhost:3000/products,7,0,0
+1775409564548,1483,POST Login,200,OK,Load Test 1-37,text,true,,579,242,67,67,http://localhost:3000/auth/login,1483,0,0
+1775409566031,7,GET Products,200,OK,Load Test 1-37,text,true,,5635,140,67,67,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566038,7,POST Create Product,200,OK,Load Test 1-37,text,true,,5635,482,67,67,http://localhost:3000/products,7,0,0
+1775409564541,1516,POST Login,200,OK,Load Test 1-88,text,true,,579,242,66,66,http://localhost:3000/auth/login,1516,0,1
+1775409566057,8,GET Products,200,OK,Load Test 1-88,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566065,7,POST Create Product,200,OK,Load Test 1-88,text,true,,5635,482,66,66,http://localhost:3000/products,7,0,0
+1775409564604,1475,POST Login,200,OK,Load Test 1-51,text,true,,579,242,66,66,http://localhost:3000/auth/login,1475,0,0
+1775409566080,6,GET Products,200,OK,Load Test 1-51,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409566087,6,POST Create Product,200,OK,Load Test 1-51,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564629,1491,POST Login,200,OK,Load Test 1-75,text,true,,579,242,66,66,http://localhost:3000/auth/login,1491,0,0
+1775409566121,7,GET Products,200,OK,Load Test 1-75,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566128,7,POST Create Product,200,OK,Load Test 1-75,text,true,,5635,482,66,66,http://localhost:3000/products,7,0,0
+1775409564639,1509,POST Login,200,OK,Load Test 1-89,text,true,,579,242,66,66,http://localhost:3000/auth/login,1509,0,1
+1775409566148,7,GET Products,200,OK,Load Test 1-89,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566156,6,POST Create Product,200,OK,Load Test 1-89,text,true,,5635,482,66,66,http://localhost:3000/products,6,0,0
+1775409564668,1513,POST Login,200,OK,Load Test 1-64,text,true,,579,242,66,66,http://localhost:3000/auth/login,1513,0,0
+1775409566181,8,GET Products,200,OK,Load Test 1-64,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409564682,1513,POST Login,200,OK,Load Test 1-38,text,true,,579,242,66,66,http://localhost:3000/auth/login,1513,0,0
+1775409566189,13,POST Create Product,200,OK,Load Test 1-64,text,true,,5635,482,66,66,http://localhost:3000/products,13,0,0
+1775409566195,11,GET Products,200,OK,Load Test 1-38,text,true,,5635,140,66,66,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409566207,12,POST Create Product,200,OK,Load Test 1-38,text,true,,5635,482,66,66,http://localhost:3000/products,12,0,0
+1775409564719,1521,POST Login,200,OK,Load Test 1-39,text,true,,579,242,65,65,http://localhost:3000/auth/login,1521,0,0
+1775409566240,8,GET Products,200,OK,Load Test 1-39,text,true,,5635,140,65,65,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566248,7,POST Create Product,200,OK,Load Test 1-39,text,true,,5635,482,65,65,http://localhost:3000/products,7,0,0
+1775409564735,1534,POST Login,200,OK,Load Test 1-65,text,true,,579,242,64,64,http://localhost:3000/auth/login,1534,0,0
+1775409566269,12,GET Products,200,OK,Load Test 1-65,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409566282,8,POST Create Product,200,OK,Load Test 1-65,text,true,,5635,482,64,64,http://localhost:3000/products,7,0,0
+1775409564739,1560,POST Login,200,OK,Load Test 1-90,text,true,,579,242,64,64,http://localhost:3000/auth/login,1560,0,1
+1775409566300,8,GET Products,200,OK,Load Test 1-90,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566308,7,POST Create Product,200,OK,Load Test 1-90,text,true,,5635,482,64,64,http://localhost:3000/products,7,0,0
+1775409564779,1551,POST Login,200,OK,Load Test 1-76,text,true,,579,242,64,64,http://localhost:3000/auth/login,1551,0,0
+1775409566330,9,GET Products,200,OK,Load Test 1-76,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409566340,18,POST Create Product,200,OK,Load Test 1-76,text,true,,5635,482,64,64,http://localhost:3000/products,18,0,0
+1775409564832,1547,POST Login,200,OK,Load Test 1-52,text,true,,579,242,64,64,http://localhost:3000/auth/login,1547,0,0
+1775409566379,18,GET Products,200,OK,Load Test 1-52,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409566397,7,POST Create Product,200,OK,Load Test 1-52,text,true,,5635,482,64,64,http://localhost:3000/products,7,0,0
+1775409564839,1569,POST Login,200,OK,Load Test 1-91,text,true,,579,242,64,64,http://localhost:3000/auth/login,1569,0,1
+1775409566408,11,GET Products,200,OK,Load Test 1-91,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409564851,1574,POST Login,200,OK,Load Test 1-40,text,true,,579,242,64,64,http://localhost:3000/auth/login,1574,0,0
+1775409566419,15,POST Create Product,200,OK,Load Test 1-91,text,true,,5635,482,64,64,http://localhost:3000/products,15,0,0
+1775409566426,17,GET Products,200,OK,Load Test 1-40,text,true,,5635,140,64,64,http://localhost:3000/products?page=1&limit=10,17,0,0
+1775409564887,1574,POST Login,200,OK,Load Test 1-66,text,true,,579,242,64,64,http://localhost:3000/auth/login,1574,0,0
+1775409566444,22,POST Create Product,200,OK,Load Test 1-40,text,true,,5635,482,64,64,http://localhost:3000/products,22,0,0
+1775409566461,15,GET Products,200,OK,Load Test 1-66,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409566477,11,POST Create Product,200,OK,Load Test 1-66,text,true,,5635,482,63,63,http://localhost:3000/products,11,0,0
+1775409564913,1598,POST Login,200,OK,Load Test 1-77,text,true,,579,242,63,63,http://localhost:3000/auth/login,1598,0,0
+1775409566512,9,GET Products,200,OK,Load Test 1-77,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409564939,1585,POST Login,200,OK,Load Test 1-92,text,true,,579,242,63,63,http://localhost:3000/auth/login,1585,0,1
+1775409566521,14,POST Create Product,200,OK,Load Test 1-77,text,true,,5635,482,63,63,http://localhost:3000/products,14,0,0
+1775409566524,18,GET Products,200,OK,Load Test 1-92,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,18,0,0
+1775409564962,1594,POST Login,200,OK,Load Test 1-41,text,true,,579,242,63,63,http://localhost:3000/auth/login,1594,0,0
+1775409566543,15,POST Create Product,200,OK,Load Test 1-92,text,true,,5635,482,63,63,http://localhost:3000/products,15,0,0
+1775409566556,11,GET Products,200,OK,Load Test 1-41,text,true,,5635,140,63,63,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409566567,7,POST Create Product,200,OK,Load Test 1-41,text,true,,5635,482,63,63,http://localhost:3000/products,7,0,0
+1775409564970,1618,POST Login,200,OK,Load Test 1-53,text,true,,579,242,62,62,http://localhost:3000/auth/login,1618,0,0
+1775409566589,8,GET Products,200,OK,Load Test 1-53,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566598,16,POST Create Product,200,OK,Load Test 1-53,text,true,,5635,482,62,62,http://localhost:3000/products,16,0,0
+1775409565038,1629,POST Login,200,OK,Load Test 1-93,text,true,,579,242,62,62,http://localhost:3000/auth/login,1629,0,1
+1775409565072,1600,POST Login,200,OK,Load Test 1-67,text,true,,579,242,62,62,http://localhost:3000/auth/login,1599,0,0
+1775409566668,11,GET Products,200,OK,Load Test 1-93,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409566672,36,GET Products,200,OK,Load Test 1-67,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,36,0,0
+1775409565078,1630,POST Login,200,OK,Load Test 1-54,text,true,,579,242,62,62,http://localhost:3000/auth/login,1630,0,0
+1775409566679,44,POST Create Product,200,OK,Load Test 1-93,text,true,,5635,482,62,62,http://localhost:3000/products,44,0,0
+1775409565083,1644,POST Login,200,OK,Load Test 1-55,text,true,,579,242,62,62,http://localhost:3000/auth/login,1644,0,0
+1775409566708,21,GET Products,200,OK,Load Test 1-54,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,21,0,0
+1775409566708,23,POST Create Product,200,OK,Load Test 1-67,text,true,,5635,482,62,62,http://localhost:3000/products,23,0,0
+1775409566727,14,GET Products,200,OK,Load Test 1-55,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409566729,14,POST Create Product,200,OK,Load Test 1-54,text,true,,5635,482,62,62,http://localhost:3000/products,14,0,0
+1775409566741,8,POST Create Product,200,OK,Load Test 1-55,text,true,,5635,482,62,62,http://localhost:3000/products,8,0,0
+1775409565172,1640,POST Login,200,OK,Load Test 1-68,text,true,,579,242,62,62,http://localhost:3000/auth/login,1640,0,0
+1775409565125,1693,POST Login,200,OK,Load Test 1-42,text,true,,579,242,62,62,http://localhost:3000/auth/login,1693,0,0
+1775409566813,7,GET Products,200,OK,Load Test 1-68,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566819,7,GET Products,200,OK,Load Test 1-42,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565138,1689,POST Login,200,OK,Load Test 1-94,text,true,,579,242,62,62,http://localhost:3000/auth/login,1689,0,1
+1775409566820,8,POST Create Product,200,OK,Load Test 1-68,text,true,,5635,482,62,62,http://localhost:3000/products,8,0,0
+1775409566826,8,POST Create Product,200,OK,Load Test 1-42,text,true,,5635,482,62,62,http://localhost:3000/products,8,0,0
+1775409566827,7,GET Products,200,OK,Load Test 1-94,text,true,,5635,140,62,62,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565181,1656,POST Login,200,OK,Load Test 1-79,text,true,,579,242,61,61,http://localhost:3000/auth/login,1656,0,0
+1775409566835,8,POST Create Product,200,OK,Load Test 1-94,text,true,,5635,482,61,61,http://localhost:3000/products,8,0,0
+1775409566837,7,GET Products,200,OK,Load Test 1-79,text,true,,5635,140,61,61,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566844,8,POST Create Product,200,OK,Load Test 1-79,text,true,,5635,482,61,61,http://localhost:3000/products,8,0,0
+1775409565223,1692,POST Login,200,OK,Load Test 1-43,text,true,,579,242,61,61,http://localhost:3000/auth/login,1692,0,0
+1775409566915,7,GET Products,200,OK,Load Test 1-43,text,true,,5635,140,61,61,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409565234,1689,POST Login,200,OK,Load Test 1-95,text,true,,579,242,61,61,http://localhost:3000/auth/login,1689,0,1
+1775409565242,1686,POST Login,200,OK,Load Test 1-56,text,true,,579,242,61,61,http://localhost:3000/auth/login,1686,0,0
+1775409566922,8,POST Create Product,200,OK,Load Test 1-43,text,true,,5635,482,61,61,http://localhost:3000/products,7,0,0
+1775409566923,8,GET Products,200,OK,Load Test 1-95,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409566928,11,GET Products,200,OK,Load Test 1-56,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409566932,9,POST Create Product,200,OK,Load Test 1-95,text,true,,5635,482,60,60,http://localhost:3000/products,9,0,0
+1775409565284,1661,POST Login,200,OK,Load Test 1-69,text,true,,579,242,60,60,http://localhost:3000/auth/login,1661,0,0
+1775409566939,8,POST Create Product,200,OK,Load Test 1-56,text,true,,5635,482,60,60,http://localhost:3000/products,8,0,0
+1775409566946,6,GET Products,200,OK,Load Test 1-69,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409566952,9,POST Create Product,200,OK,Load Test 1-69,text,true,,5635,482,60,60,http://localhost:3000/products,9,0,0
+1775409565323,1696,POST Login,200,OK,Load Test 1-80,text,true,,579,242,60,60,http://localhost:3000/auth/login,1696,0,0
+1775409567019,8,GET Products,200,OK,Load Test 1-80,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565338,1692,POST Login,200,OK,Load Test 1-96,text,true,,579,242,60,60,http://localhost:3000/auth/login,1692,0,1
+1775409567027,6,POST Create Product,200,OK,Load Test 1-80,text,true,,5635,482,60,60,http://localhost:3000/products,6,0,0
+1775409565344,1690,POST Login,200,OK,Load Test 1-58,text,true,,579,242,60,60,http://localhost:3000/auth/login,1690,0,0
+1775409567031,7,GET Products,200,OK,Load Test 1-96,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567035,5,GET Products,200,OK,Load Test 1-58,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567038,7,POST Create Product,200,OK,Load Test 1-96,text,true,,5635,482,60,60,http://localhost:3000/products,7,0,0
+1775409567040,6,POST Create Product,200,OK,Load Test 1-58,text,true,,5635,482,60,60,http://localhost:3000/products,6,0,0
+1775409565369,1682,POST Login,200,OK,Load Test 1-57,text,true,,579,242,60,60,http://localhost:3000/auth/login,1682,0,0
+1775409567052,8,GET Products,200,OK,Load Test 1-57,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567061,7,POST Create Product,200,OK,Load Test 1-57,text,true,,5635,482,60,60,http://localhost:3000/products,7,0,0
+1775409565380,1742,POST Login,200,OK,Load Test 1-44,text,true,,579,242,60,60,http://localhost:3000/auth/login,1742,0,0
+1775409565417,1710,POST Login,200,OK,Load Test 1-81,text,true,,579,242,60,60,http://localhost:3000/auth/login,1710,0,0
+1775409567123,6,GET Products,200,OK,Load Test 1-44,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565437,1694,POST Login,200,OK,Load Test 1-97,text,true,,579,242,60,60,http://localhost:3000/auth/login,1694,0,1
+1775409567128,7,GET Products,200,OK,Load Test 1-81,text,true,,5635,140,60,60,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567129,7,POST Create Product,200,OK,Load Test 1-44,text,true,,5635,482,60,60,http://localhost:3000/products,7,0,0
+1775409567131,8,GET Products,200,OK,Load Test 1-97,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567136,7,POST Create Product,200,OK,Load Test 1-81,text,true,,5635,482,59,59,http://localhost:3000/products,7,0,0
+1775409567140,5,POST Create Product,200,OK,Load Test 1-97,text,true,,5635,482,59,59,http://localhost:3000/products,5,0,0
+1775409565439,1713,POST Login,200,OK,Load Test 1-70,text,true,,579,242,59,59,http://localhost:3000/auth/login,1713,0,0
+1775409567152,5,GET Products,200,OK,Load Test 1-70,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567157,5,POST Create Product,200,OK,Load Test 1-70,text,true,,5635,482,59,59,http://localhost:3000/products,5,0,0
+1775409565465,1750,POST Login,200,OK,Load Test 1-45,text,true,,579,242,59,59,http://localhost:3000/auth/login,1750,0,0
+1775409567215,6,GET Products,200,OK,Load Test 1-45,text,true,,5635,140,59,59,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565478,1746,POST Login,200,OK,Load Test 1-82,text,true,,579,242,59,59,http://localhost:3000/auth/login,1746,0,0
+1775409565507,1717,POST Login,200,OK,Load Test 1-59,text,true,,579,242,59,59,http://localhost:3000/auth/login,1717,0,0
+1775409567221,7,POST Create Product,200,OK,Load Test 1-45,text,true,,5635,482,59,59,http://localhost:3000/products,7,0,0
+1775409567224,6,GET Products,200,OK,Load Test 1-82,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567224,8,GET Products,200,OK,Load Test 1-59,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567231,7,POST Create Product,200,OK,Load Test 1-82,text,true,,5635,482,58,58,http://localhost:3000/products,7,0,0
+1775409567232,7,POST Create Product,200,OK,Load Test 1-59,text,true,,5635,482,58,58,http://localhost:3000/products,7,0,0
+1775409565537,1714,POST Login,200,OK,Load Test 1-98,text,true,,579,242,58,58,http://localhost:3000/auth/login,1714,0,1
+1775409567252,8,GET Products,200,OK,Load Test 1-98,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567260,6,POST Create Product,200,OK,Load Test 1-98,text,true,,5635,482,58,58,http://localhost:3000/products,6,0,0
+1775409565559,1755,POST Login,200,OK,Load Test 1-71,text,true,,579,242,58,58,http://localhost:3000/auth/login,1755,0,0
+1775409565573,1746,POST Login,200,OK,Load Test 1-46,text,true,,579,242,58,58,http://localhost:3000/auth/login,1746,0,0
+1775409567314,6,GET Products,200,OK,Load Test 1-71,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567320,5,GET Products,200,OK,Load Test 1-46,text,true,,5635,140,58,58,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567321,6,POST Create Product,200,OK,Load Test 1-71,text,true,,5635,482,58,58,http://localhost:3000/products,6,0,0
+1775409565607,1721,POST Login,200,OK,Load Test 1-60,text,true,,579,242,58,58,http://localhost:3000/auth/login,1721,0,0
+1775409567325,8,POST Create Product,200,OK,Load Test 1-46,text,true,,5635,482,58,58,http://localhost:3000/products,8,0,0
+1775409567328,8,GET Products,200,OK,Load Test 1-60,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567336,4,POST Create Product,200,OK,Load Test 1-60,text,true,,5635,482,57,57,http://localhost:3000/products,4,0,0
+1775409565629,1720,POST Login,200,OK,Load Test 1-83,text,true,,579,242,57,57,http://localhost:3000/auth/login,1720,0,0
+1775409567349,6,GET Products,200,OK,Load Test 1-83,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567355,5,POST Create Product,200,OK,Load Test 1-83,text,true,,5635,482,57,57,http://localhost:3000/products,5,0,0
+1775409565634,1780,POST Login,200,OK,Load Test 1-99,text,true,,579,242,57,57,http://localhost:3000/auth/login,1780,0,0
+1775409565656,1761,POST Login,200,OK,Load Test 1-61,text,true,,579,242,57,57,http://localhost:3000/auth/login,1761,0,0
+1775409567414,6,GET Products,200,OK,Load Test 1-99,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567418,6,GET Products,200,OK,Load Test 1-61,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567420,5,POST Create Product,200,OK,Load Test 1-99,text,true,,5635,482,57,57,http://localhost:3000/products,5,0,0
+1775409565673,1753,POST Login,200,OK,Load Test 1-72,text,true,,579,242,57,57,http://localhost:3000/auth/login,1753,0,0
+1775409567424,10,POST Create Product,200,OK,Load Test 1-61,text,true,,5635,482,57,57,http://localhost:3000/products,10,0,0
+1775409567426,10,GET Products,200,OK,Load Test 1-72,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409567436,5,POST Create Product,200,OK,Load Test 1-72,text,true,,5635,482,57,57,http://localhost:3000/products,5,0,0
+1775409565706,1736,POST Login,200,OK,Load Test 1-84,text,true,,579,242,57,57,http://localhost:3000/auth/login,1736,0,0
+1775409567442,6,GET Products,200,OK,Load Test 1-84,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567448,5,POST Create Product,200,OK,Load Test 1-84,text,true,,5635,482,57,57,http://localhost:3000/products,4,0,0
+1775409565728,1775,POST Login,200,OK,Load Test 1-47,text,true,,579,242,57,57,http://localhost:3000/auth/login,1775,0,0
+1775409565738,1769,POST Login,200,OK,Load Test 1-100,text,true,,579,242,57,57,http://localhost:3000/auth/login,1769,0,1
+1775409567503,6,GET Products,200,OK,Load Test 1-47,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567507,7,GET Products,200,OK,Load Test 1-100,text,true,,5635,140,57,57,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567509,6,POST Create Product,200,OK,Load Test 1-47,text,true,,5635,482,57,57,http://localhost:3000/products,6,0,0
+1775409565771,1747,POST Login,200,OK,Load Test 1-48,text,true,,579,242,56,56,http://localhost:3000/auth/login,1747,0,0
+1775409567514,5,POST Create Product,200,OK,Load Test 1-100,text,true,,5635,482,56,56,http://localhost:3000/products,5,0,0
+1775409567518,6,GET Products,200,OK,Load Test 1-48,text,true,,5635,140,56,56,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567524,5,POST Create Product,200,OK,Load Test 1-48,text,true,,5635,482,56,56,http://localhost:3000/products,5,0,0
+1775409565808,1727,POST Login,200,OK,Load Test 1-85,text,true,,579,242,55,55,http://localhost:3000/auth/login,1727,0,0
+1775409567536,4,GET Products,200,OK,Load Test 1-85,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,4,0,0
+1775409567541,5,POST Create Product,200,OK,Load Test 1-85,text,true,,5635,482,55,55,http://localhost:3000/products,5,0,0
+1775409565829,1763,POST Login,200,OK,Load Test 1-73,text,true,,579,242,55,55,http://localhost:3000/auth/login,1763,0,0
+1775409567592,8,GET Products,200,OK,Load Test 1-73,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409565853,1747,POST Login,200,OK,Load Test 1-62,text,true,,579,242,55,55,http://localhost:3000/auth/login,1747,0,0
+1775409567600,6,POST Create Product,200,OK,Load Test 1-73,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409567601,6,GET Products,200,OK,Load Test 1-62,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565867,1741,POST Login,200,OK,Load Test 1-86,text,true,,579,242,55,55,http://localhost:3000/auth/login,1741,0,0
+1775409567607,6,POST Create Product,200,OK,Load Test 1-62,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409567608,6,GET Products,200,OK,Load Test 1-86,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567614,5,POST Create Product,200,OK,Load Test 1-86,text,true,,5635,482,55,55,http://localhost:3000/products,5,0,0
+1775409565911,1717,POST Login,200,OK,Load Test 1-49,text,true,,579,242,55,55,http://localhost:3000/auth/login,1717,0,0
+1775409567628,6,GET Products,200,OK,Load Test 1-49,text,true,,5635,140,55,55,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567634,6,POST Create Product,200,OK,Load Test 1-49,text,true,,5635,482,55,55,http://localhost:3000/products,6,0,0
+1775409565931,1755,POST Login,200,OK,Load Test 1-74,text,true,,579,242,54,54,http://localhost:3000/auth/login,1755,0,0
+1775409567686,6,GET Products,200,OK,Load Test 1-74,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409565959,1734,POST Login,200,OK,Load Test 1-50,text,true,,579,242,54,54,http://localhost:3000/auth/login,1734,0,0
+1775409565979,1715,POST Login,200,OK,Load Test 1-87,text,true,,579,242,54,54,http://localhost:3000/auth/login,1715,0,0
+1775409567693,6,POST Create Product,200,OK,Load Test 1-74,text,true,,5635,482,54,54,http://localhost:3000/products,6,0,0
+1775409567693,7,GET Products,200,OK,Load Test 1-50,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567694,7,GET Products,200,OK,Load Test 1-87,text,true,,5635,140,54,54,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567700,6,POST Create Product,200,OK,Load Test 1-50,text,true,,5635,482,54,54,http://localhost:3000/products,6,0,0
+1775409567701,6,POST Create Product,200,OK,Load Test 1-87,text,true,,5635,482,53,53,http://localhost:3000/products,6,0,0
+1775409566021,1700,POST Login,200,OK,Load Test 1-63,text,true,,579,242,53,53,http://localhost:3000/auth/login,1700,0,0
+1775409567721,6,GET Products,200,OK,Load Test 1-63,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567727,6,POST Create Product,200,OK,Load Test 1-63,text,true,,5635,482,53,53,http://localhost:3000/products,6,0,0
+1775409566073,1705,POST Login,200,OK,Load Test 1-88,text,true,,579,242,53,53,http://localhost:3000/auth/login,1705,0,0
+1775409566136,1646,POST Login,200,OK,Load Test 1-75,text,true,,579,242,53,53,http://localhost:3000/auth/login,1646,0,0
+1775409566094,1688,POST Login,200,OK,Load Test 1-51,text,true,,579,242,53,53,http://localhost:3000/auth/login,1688,0,0
+1775409567778,8,GET Products,200,OK,Load Test 1-88,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567783,10,GET Products,200,OK,Load Test 1-51,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409567782,14,GET Products,200,OK,Load Test 1-75,text,true,,5635,140,53,53,http://localhost:3000/products?page=1&limit=10,14,0,0
+1775409567786,15,POST Create Product,200,OK,Load Test 1-88,text,true,,5635,482,53,53,http://localhost:3000/products,15,0,0
+1775409567794,9,POST Create Product,200,OK,Load Test 1-51,text,true,,5635,482,53,53,http://localhost:3000/products,9,0,0
+1775409567797,7,POST Create Product,200,OK,Load Test 1-75,text,true,,5635,482,52,52,http://localhost:3000/products,7,0,0
+1775409566162,1653,POST Login,200,OK,Load Test 1-89,text,true,,579,242,52,52,http://localhost:3000/auth/login,1653,0,0
+1775409567815,10,GET Products,200,OK,Load Test 1-89,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409567826,7,POST Create Product,200,OK,Load Test 1-89,text,true,,5635,482,52,52,http://localhost:3000/products,7,0,0
+1775409566203,1672,POST Login,200,OK,Load Test 1-64,text,true,,579,242,52,52,http://localhost:3000/auth/login,1672,0,0
+1775409566316,1560,POST Login,200,OK,Load Test 1-90,text,true,,579,242,52,52,http://localhost:3000/auth/login,1560,0,0
+1775409567875,6,GET Products,200,OK,Load Test 1-64,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409566290,1592,POST Login,200,OK,Load Test 1-65,text,true,,579,242,52,52,http://localhost:3000/auth/login,1592,0,0
+1775409567877,6,GET Products,200,OK,Load Test 1-90,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567881,5,POST Create Product,200,OK,Load Test 1-64,text,true,,5635,482,52,52,http://localhost:3000/products,5,0,0
+1775409567882,6,GET Products,200,OK,Load Test 1-65,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567883,6,POST Create Product,200,OK,Load Test 1-90,text,true,,5635,482,52,52,http://localhost:3000/products,6,0,0
+1775409567888,6,POST Create Product,200,OK,Load Test 1-65,text,true,,5635,482,52,52,http://localhost:3000/products,6,0,0
+1775409566358,1547,POST Login,200,OK,Load Test 1-76,text,true,,579,242,52,52,http://localhost:3000/auth/login,1547,0,0
+1775409567905,5,GET Products,200,OK,Load Test 1-76,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567910,5,POST Create Product,200,OK,Load Test 1-76,text,true,,5635,482,52,52,http://localhost:3000/products,5,0,0
+1775409566404,1558,POST Login,200,OK,Load Test 1-52,text,true,,579,242,52,52,http://localhost:3000/auth/login,1558,0,0
+1775409566434,1530,POST Login,200,OK,Load Test 1-91,text,true,,579,242,52,52,http://localhost:3000/auth/login,1530,0,0
+1775409567962,7,GET Products,200,OK,Load Test 1-52,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567964,7,GET Products,200,OK,Load Test 1-91,text,true,,5635,140,52,52,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566488,1484,POST Login,200,OK,Load Test 1-66,text,true,,579,242,52,52,http://localhost:3000/auth/login,1484,0,0
+1775409567970,7,POST Create Product,200,OK,Load Test 1-52,text,true,,5635,482,52,52,http://localhost:3000/products,7,0,0
+1775409567971,7,POST Create Product,200,OK,Load Test 1-91,text,true,,5635,482,51,51,http://localhost:3000/products,7,0,0
+1775409567972,7,GET Products,200,OK,Load Test 1-66,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567980,5,POST Create Product,200,OK,Load Test 1-66,text,true,,5635,482,51,51,http://localhost:3000/products,5,0,0
+1775409566536,1456,POST Login,200,OK,Load Test 1-77,text,true,,579,242,51,51,http://localhost:3000/auth/login,1456,0,0
+1775409567993,4,GET Products,200,OK,Load Test 1-77,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,4,0,0
+1775409567998,5,POST Create Product,200,OK,Load Test 1-77,text,true,,5635,482,51,51,http://localhost:3000/products,5,0,0
+1775409566558,1492,POST Login,200,OK,Load Test 1-92,text,true,,579,242,51,51,http://localhost:3000/auth/login,1492,0,0
+1775409566614,1440,POST Login,200,OK,Load Test 1-53,text,true,,579,242,51,51,http://localhost:3000/auth/login,1440,0,0
+1775409568050,6,GET Products,200,OK,Load Test 1-92,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409566723,1335,POST Login,200,OK,Load Test 1-93,text,true,,579,242,51,51,http://localhost:3000/auth/login,1335,0,0
+1775409568054,7,GET Products,200,OK,Load Test 1-53,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409568056,6,POST Create Product,200,OK,Load Test 1-92,text,true,,5635,482,51,51,http://localhost:3000/products,6,0,0
+1775409568058,10,GET Products,200,OK,Load Test 1-93,text,true,,5635,140,51,51,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409568061,8,POST Create Product,200,OK,Load Test 1-53,text,true,,5635,482,51,51,http://localhost:3000/products,8,0,0
+1775409568068,6,POST Create Product,200,OK,Load Test 1-93,text,true,,5635,482,50,50,http://localhost:3000/products,6,0,0
+1775409566731,1349,POST Login,200,OK,Load Test 1-67,text,true,,579,242,50,50,http://localhost:3000/auth/login,1349,0,0
+1775409568080,5,GET Products,200,OK,Load Test 1-67,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568086,4,POST Create Product,200,OK,Load Test 1-67,text,true,,5635,482,50,50,http://localhost:3000/products,4,0,0
+1775409566743,1392,POST Login,200,OK,Load Test 1-54,text,true,,579,242,50,50,http://localhost:3000/auth/login,1392,0,0
+1775409566749,1392,POST Login,200,OK,Load Test 1-55,text,true,,579,242,50,50,http://localhost:3000/auth/login,1392,0,0
+1775409568135,7,GET Products,200,OK,Load Test 1-54,text,true,,5635,140,50,50,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409566829,1314,POST Login,200,OK,Load Test 1-68,text,true,,579,242,50,50,http://localhost:3000/auth/login,1314,0,0
+1775409568142,5,POST Create Product,200,OK,Load Test 1-54,text,true,,5635,482,50,50,http://localhost:3000/products,5,0,0
+1775409568141,7,GET Products,200,OK,Load Test 1-55,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409568143,6,GET Products,200,OK,Load Test 1-68,text,true,,5635,140,49,49,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568148,8,POST Create Product,200,OK,Load Test 1-55,text,true,,5635,482,49,49,http://localhost:3000/products,8,0,0
+1775409568150,6,POST Create Product,200,OK,Load Test 1-68,text,true,,5635,482,49,49,http://localhost:3000/products,6,0,0
+1775409566843,1322,POST Login,200,OK,Load Test 1-94,text,true,,579,242,48,48,http://localhost:3000/auth/login,1322,0,0
+1775409568165,6,GET Products,200,OK,Load Test 1-94,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568171,5,POST Create Product,200,OK,Load Test 1-94,text,true,,5635,482,48,48,http://localhost:3000/products,5,0,0
+1775409566852,1371,POST Login,200,OK,Load Test 1-79,text,true,,579,242,48,48,http://localhost:3000/auth/login,1371,0,0
+1775409568223,5,GET Products,200,OK,Load Test 1-79,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409566941,1289,POST Login,200,OK,Load Test 1-95,text,true,,579,242,48,48,http://localhost:3000/auth/login,1288,0,0
+1775409568229,5,POST Create Product,200,OK,Load Test 1-79,text,true,,5635,482,48,48,http://localhost:3000/products,5,0,0
+1775409566947,1287,POST Login,200,OK,Load Test 1-56,text,true,,579,242,48,48,http://localhost:3000/auth/login,1287,0,0
+1775409568230,5,GET Products,200,OK,Load Test 1-95,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568234,9,GET Products,200,OK,Load Test 1-56,text,true,,5635,140,48,48,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409568235,8,POST Create Product,200,OK,Load Test 1-95,text,true,,5635,482,48,48,http://localhost:3000/products,8,0,0
+1775409568243,5,POST Create Product,200,OK,Load Test 1-56,text,true,,5635,482,48,48,http://localhost:3000/products,5,0,0
+1775409566961,1292,POST Login,200,OK,Load Test 1-69,text,true,,579,242,47,47,http://localhost:3000/auth/login,1292,0,0
+1775409568253,5,GET Products,200,OK,Load Test 1-69,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568258,5,POST Create Product,200,OK,Load Test 1-69,text,true,,5635,482,47,47,http://localhost:3000/products,5,0,0
+1775409567033,1281,POST Login,200,OK,Load Test 1-80,text,true,,579,242,47,47,http://localhost:3000/auth/login,1280,0,0
+1775409567045,1273,POST Login,200,OK,Load Test 1-96,text,true,,579,242,47,47,http://localhost:3000/auth/login,1273,0,0
+1775409568314,6,GET Products,200,OK,Load Test 1-80,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567046,1274,POST Login,200,OK,Load Test 1-58,text,true,,579,242,47,47,http://localhost:3000/auth/login,1274,0,0
+1775409568319,6,GET Products,200,OK,Load Test 1-96,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568320,7,POST Create Product,200,OK,Load Test 1-80,text,true,,5635,482,47,47,http://localhost:3000/products,7,0,0
+1775409568320,9,GET Products,200,OK,Load Test 1-58,text,true,,5635,140,47,47,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409568325,7,POST Create Product,200,OK,Load Test 1-96,text,true,,5635,482,47,47,http://localhost:3000/products,7,0,0
+1775409568329,6,POST Create Product,200,OK,Load Test 1-58,text,true,,5635,482,47,47,http://localhost:3000/products,6,0,0
+1775409567068,1274,POST Login,200,OK,Load Test 1-57,text,true,,579,242,46,46,http://localhost:3000/auth/login,1274,0,0
+1775409568342,5,GET Products,200,OK,Load Test 1-57,text,true,,5635,140,46,46,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568347,5,POST Create Product,200,OK,Load Test 1-57,text,true,,5635,482,46,46,http://localhost:3000/products,5,0,0
+1775409567143,1257,POST Login,200,OK,Load Test 1-81,text,true,,579,242,45,45,http://localhost:3000/auth/login,1257,0,0
+1775409567145,1258,POST Login,200,OK,Load Test 1-97,text,true,,579,242,45,45,http://localhost:3000/auth/login,1258,0,0
+1775409567163,1242,POST Login,200,OK,Load Test 1-70,text,true,,579,242,45,45,http://localhost:3000/auth/login,1242,0,0
+1775409568400,6,GET Products,200,OK,Load Test 1-81,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568403,7,GET Products,200,OK,Load Test 1-97,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409568405,6,GET Products,200,OK,Load Test 1-70,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568406,7,POST Create Product,200,OK,Load Test 1-81,text,true,,5635,482,45,45,http://localhost:3000/products,7,0,0
+1775409568411,9,POST Create Product,200,OK,Load Test 1-97,text,true,,5635,482,45,45,http://localhost:3000/products,9,0,0
+1775409568412,9,POST Create Product,200,OK,Load Test 1-70,text,true,,5635,482,45,45,http://localhost:3000/products,9,0,0
+1775409567238,1193,POST Login,200,OK,Load Test 1-82,text,true,,579,242,45,45,http://localhost:3000/auth/login,1193,0,0
+1775409568431,5,GET Products,200,OK,Load Test 1-82,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568436,6,POST Create Product,200,OK,Load Test 1-82,text,true,,5635,482,45,45,http://localhost:3000/products,6,0,0
+1775409567239,1248,POST Login,200,OK,Load Test 1-59,text,true,,579,242,45,45,http://localhost:3000/auth/login,1248,0,0
+1775409567266,1224,POST Login,200,OK,Load Test 1-98,text,true,,579,242,45,45,http://localhost:3000/auth/login,1224,0,0
+1775409568487,6,GET Products,200,OK,Load Test 1-59,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568491,5,GET Products,200,OK,Load Test 1-98,text,true,,5635,140,45,45,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567327,1170,POST Login,200,OK,Load Test 1-71,text,true,,579,242,45,45,http://localhost:3000/auth/login,1170,0,0
+1775409568494,6,POST Create Product,200,OK,Load Test 1-59,text,true,,5635,482,45,45,http://localhost:3000/products,6,0,0
+1775409568496,6,POST Create Product,200,OK,Load Test 1-98,text,true,,5635,482,44,44,http://localhost:3000/products,6,0,0
+1775409568497,6,GET Products,200,OK,Load Test 1-71,text,true,,5635,140,44,44,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568503,6,POST Create Product,200,OK,Load Test 1-71,text,true,,5635,482,44,44,http://localhost:3000/products,6,0,0
+1775409567341,1179,POST Login,200,OK,Load Test 1-60,text,true,,579,242,44,44,http://localhost:3000/auth/login,1179,0,0
+1775409568521,6,GET Products,200,OK,Load Test 1-60,text,true,,5635,140,44,44,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568527,5,POST Create Product,200,OK,Load Test 1-60,text,true,,5635,482,44,44,http://localhost:3000/products,5,0,0
+1775409567361,1213,POST Login,200,OK,Load Test 1-83,text,true,,579,242,43,43,http://localhost:3000/auth/login,1213,0,0
+1775409567425,1152,POST Login,200,OK,Load Test 1-99,text,true,,579,242,43,43,http://localhost:3000/auth/login,1152,0,0
+1775409568574,6,GET Products,200,OK,Load Test 1-83,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568578,5,GET Products,200,OK,Load Test 1-99,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409567434,1150,POST Login,200,OK,Load Test 1-61,text,true,,579,242,43,43,http://localhost:3000/auth/login,1150,0,0
+1775409568581,6,POST Create Product,200,OK,Load Test 1-83,text,true,,5635,482,43,43,http://localhost:3000/products,6,0,0
+1775409568583,5,POST Create Product,200,OK,Load Test 1-99,text,true,,5635,482,43,43,http://localhost:3000/products,5,0,0
+1775409568584,5,GET Products,200,OK,Load Test 1-61,text,true,,5635,140,43,43,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568589,5,POST Create Product,200,OK,Load Test 1-61,text,true,,5635,482,43,43,http://localhost:3000/products,5,0,0
+1775409567442,1167,POST Login,200,OK,Load Test 1-72,text,true,,579,242,42,42,http://localhost:3000/auth/login,1167,0,0
+1775409568609,5,GET Products,200,OK,Load Test 1-72,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568614,9,POST Create Product,200,OK,Load Test 1-72,text,true,,5635,482,42,42,http://localhost:3000/products,9,0,0
+1775409567453,1209,POST Login,200,OK,Load Test 1-84,text,true,,579,242,42,42,http://localhost:3000/auth/login,1209,0,0
+1775409567519,1148,POST Login,200,OK,Load Test 1-100,text,true,,579,242,42,42,http://localhost:3000/auth/login,1148,0,0
+1775409567546,1122,POST Login,200,OK,Load Test 1-85,text,true,,579,242,42,42,http://localhost:3000/auth/login,1122,0,0
+1775409568662,7,GET Products,200,OK,Load Test 1-84,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409568667,6,GET Products,200,OK,Load Test 1-100,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568668,6,GET Products,200,OK,Load Test 1-85,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568669,6,POST Create Product,200,OK,Load Test 1-84,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409568673,6,POST Create Product,200,OK,Load Test 1-100,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409568674,6,POST Create Product,200,OK,Load Test 1-85,text,true,,5635,482,42,42,http://localhost:3000/products,6,0,0
+1775409567606,1094,POST Login,200,OK,Load Test 1-73,text,true,,579,242,42,42,http://localhost:3000/auth/login,1094,0,0
+1775409568700,5,GET Products,200,OK,Load Test 1-73,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568705,5,POST Create Product,200,OK,Load Test 1-73,text,true,,5635,482,42,42,http://localhost:3000/products,5,0,0
+1775409567614,1138,POST Login,200,OK,Load Test 1-62,text,true,,579,242,42,42,http://localhost:3000/auth/login,1138,0,0
+1775409567699,1058,POST Login,200,OK,Load Test 1-74,text,true,,579,242,42,42,http://localhost:3000/auth/login,1058,0,0
+1775409567619,1139,POST Login,200,OK,Load Test 1-86,text,true,,579,242,42,42,http://localhost:3000/auth/login,1139,0,0
+1775409568752,10,GET Products,200,OK,Load Test 1-62,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409568757,8,GET Products,200,OK,Load Test 1-74,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409568758,12,GET Products,200,OK,Load Test 1-86,text,true,,5635,140,42,42,http://localhost:3000/products?page=1&limit=10,12,0,0
+1775409568766,12,POST Create Product,200,OK,Load Test 1-74,text,true,,5635,482,42,42,http://localhost:3000/products,12,0,0
+1775409568770,9,POST Create Product,200,OK,Load Test 1-86,text,true,,5635,482,42,42,http://localhost:3000/products,9,0,0
+1775409568762,18,POST Create Product,200,OK,Load Test 1-62,text,true,,5635,482,42,42,http://localhost:3000/products,18,0,0
+1775409567707,1083,POST Login,200,OK,Load Test 1-87,text,true,,579,242,41,41,http://localhost:3000/auth/login,1083,0,0
+1775409568790,11,GET Products,200,OK,Load Test 1-87,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,11,0,0
+1775409568802,6,POST Create Product,200,OK,Load Test 1-87,text,true,,5635,482,41,41,http://localhost:3000/products,6,0,0
+1775409567733,1132,POST Login,200,OK,Load Test 1-63,text,true,,579,242,41,41,http://localhost:3000/auth/login,1132,0,0
+1775409567804,1074,POST Login,200,OK,Load Test 1-75,text,true,,579,242,41,41,http://localhost:3000/auth/login,1074,0,0
+1775409568865,20,GET Products,200,OK,Load Test 1-63,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,20,0,0
+1775409567801,1084,POST Login,200,OK,Load Test 1-88,text,true,,579,242,41,41,http://localhost:3000/auth/login,1084,0,0
+1775409568878,23,GET Products,200,OK,Load Test 1-75,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,23,0,0
+1775409568885,16,GET Products,200,OK,Load Test 1-88,text,true,,5635,140,41,41,http://localhost:3000/products?page=1&limit=10,16,0,0
+1775409568885,19,POST Create Product,200,OK,Load Test 1-63,text,true,,5635,482,41,41,http://localhost:3000/products,19,0,0
+1775409567833,1078,POST Login,200,OK,Load Test 1-89,text,true,,579,242,40,40,http://localhost:3000/auth/login,1078,0,0
+1775409568901,12,POST Create Product,200,OK,Load Test 1-75,text,true,,5635,482,40,40,http://localhost:3000/products,12,0,0
+1775409568901,17,POST Create Product,200,OK,Load Test 1-88,text,true,,5635,482,40,40,http://localhost:3000/products,17,0,0
+1775409568912,16,GET Products,200,OK,Load Test 1-89,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,16,0,0
+1775409568929,10,POST Create Product,200,OK,Load Test 1-89,text,true,,5635,482,40,40,http://localhost:3000/products,10,0,0
+1775409567889,1084,POST Login,200,OK,Load Test 1-90,text,true,,579,242,40,40,http://localhost:3000/auth/login,1084,0,0
+1775409568974,7,GET Products,200,OK,Load Test 1-90,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409567886,1098,POST Login,200,OK,Load Test 1-64,text,true,,579,242,40,40,http://localhost:3000/auth/login,1098,0,0
+1775409568981,6,POST Create Product,200,OK,Load Test 1-90,text,true,,5635,482,40,40,http://localhost:3000/products,6,0,0
+1775409568984,6,GET Products,200,OK,Load Test 1-64,text,true,,5635,140,40,40,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409568990,6,POST Create Product,200,OK,Load Test 1-64,text,true,,5635,482,40,40,http://localhost:3000/products,6,0,0
+1775409567895,1102,POST Login,200,OK,Load Test 1-65,text,true,,579,242,39,39,http://localhost:3000/auth/login,1102,0,0
+1775409568998,5,GET Products,200,OK,Load Test 1-65,text,true,,5635,140,39,39,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569003,6,POST Create Product,200,OK,Load Test 1-65,text,true,,5635,482,39,39,http://localhost:3000/products,6,0,0
+1775409567915,1095,POST Login,200,OK,Load Test 1-76,text,true,,579,242,38,38,http://localhost:3000/auth/login,1095,0,0
+1775409569011,5,GET Products,200,OK,Load Test 1-76,text,true,,5635,140,38,38,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569017,5,POST Create Product,200,OK,Load Test 1-76,text,true,,5635,482,38,38,http://localhost:3000/products,5,0,0
+1775409560552,8473,POST Create Product,200,OK,Load Test 1-29,text,true,,5635,482,38,38,http://localhost:3000/products,8473,0,0
+1775409567978,1089,POST Login,200,OK,Load Test 1-91,text,true,,579,242,38,38,http://localhost:3000/auth/login,1089,0,0
+1775409569068,6,GET Products,200,OK,Load Test 1-91,text,true,,5635,140,38,38,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409567985,1092,POST Login,200,OK,Load Test 1-66,text,true,,579,242,38,38,http://localhost:3000/auth/login,1092,0,0
+1775409569074,5,POST Create Product,200,OK,Load Test 1-91,text,true,,5635,482,38,38,http://localhost:3000/products,5,0,0
+1775409569077,9,GET Products,200,OK,Load Test 1-66,text,true,,5635,140,38,38,http://localhost:3000/products?page=1&limit=10,9,0,0
+1775409568003,1086,POST Login,200,OK,Load Test 1-77,text,true,,579,242,38,38,http://localhost:3000/auth/login,1086,0,0
+1775409569086,5,POST Create Product,200,OK,Load Test 1-66,text,true,,5635,482,38,38,http://localhost:3000/products,5,0,0
+1775409569090,5,GET Products,200,OK,Load Test 1-77,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568062,1036,POST Login,200,OK,Load Test 1-92,text,true,,579,242,37,37,http://localhost:3000/auth/login,1036,0,0
+1775409569095,6,POST Create Product,200,OK,Load Test 1-77,text,true,,5635,482,37,37,http://localhost:3000/products,6,0,0
+1775409569098,8,GET Products,200,OK,Load Test 1-92,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409569106,5,POST Create Product,200,OK,Load Test 1-92,text,true,,5635,482,37,37,http://localhost:3000/products,5,0,0
+1775409568074,1083,POST Login,200,OK,Load Test 1-93,text,true,,579,242,37,37,http://localhost:3000/auth/login,1083,0,0
+1775409569157,7,GET Products,200,OK,Load Test 1-93,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409568091,1075,POST Login,200,OK,Load Test 1-67,text,true,,579,242,37,37,http://localhost:3000/auth/login,1075,0,0
+1775409569164,6,POST Create Product,200,OK,Load Test 1-93,text,true,,5635,482,37,37,http://localhost:3000/products,6,0,0
+1775409569166,5,GET Products,200,OK,Load Test 1-67,text,true,,5635,140,37,37,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569171,5,POST Create Product,200,OK,Load Test 1-67,text,true,,5635,482,37,37,http://localhost:3000/products,5,0,0
+1775409568157,1026,POST Login,200,OK,Load Test 1-68,text,true,,579,242,36,36,http://localhost:3000/auth/login,1026,0,0
+1775409569184,5,GET Products,200,OK,Load Test 1-68,text,true,,5635,140,36,36,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409568176,1014,POST Login,200,OK,Load Test 1-94,text,true,,579,242,36,36,http://localhost:3000/auth/login,1014,0,0
+1775409569189,6,POST Create Product,200,OK,Load Test 1-68,text,true,,5635,482,36,36,http://localhost:3000/products,6,0,0
+1775409569190,6,GET Products,200,OK,Load Test 1-94,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569196,5,POST Create Product,200,OK,Load Test 1-94,text,true,,5635,482,35,35,http://localhost:3000/products,5,0,0
+1775409568234,1018,POST Login,200,OK,Load Test 1-79,text,true,,579,242,35,35,http://localhost:3000/auth/login,1017,0,0
+1775409568243,1009,POST Login,200,OK,Load Test 1-95,text,true,,579,242,35,35,http://localhost:3000/auth/login,1009,0,0
+1775409569252,6,GET Products,200,OK,Load Test 1-79,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569252,7,GET Products,200,OK,Load Test 1-95,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569258,5,POST Create Product,200,OK,Load Test 1-79,text,true,,5635,482,35,35,http://localhost:3000/products,5,0,0
+1775409569259,5,POST Create Product,200,OK,Load Test 1-95,text,true,,5635,482,35,35,http://localhost:3000/products,5,0,0
+1775409568263,1014,POST Login,200,OK,Load Test 1-69,text,true,,579,242,35,35,http://localhost:3000/auth/login,1014,0,0
+1775409568327,952,POST Login,200,OK,Load Test 1-80,text,true,,579,242,35,35,http://localhost:3000/auth/login,952,0,0
+1775409569280,5,GET Products,200,OK,Load Test 1-80,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569278,7,GET Products,200,OK,Load Test 1-69,text,true,,5635,140,35,35,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569285,6,POST Create Product,200,OK,Load Test 1-69,text,true,,5635,482,35,35,http://localhost:3000/products,6,0,0
+1775409569285,7,POST Create Product,200,OK,Load Test 1-80,text,true,,5635,482,34,34,http://localhost:3000/products,7,0,0
+1775409568332,1008,POST Login,200,OK,Load Test 1-96,text,true,,579,242,34,34,http://localhost:3000/auth/login,1008,0,0
+1775409568413,930,POST Login,200,OK,Load Test 1-81,text,true,,579,242,34,34,http://localhost:3000/auth/login,930,0,0
+1775409569340,7,GET Products,200,OK,Load Test 1-96,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569343,6,GET Products,200,OK,Load Test 1-81,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569347,6,POST Create Product,200,OK,Load Test 1-96,text,true,,5635,482,34,34,http://localhost:3000/products,6,0,0
+1775409569349,5,POST Create Product,200,OK,Load Test 1-81,text,true,,5635,482,34,34,http://localhost:3000/products,5,0,0
+1775409568421,946,POST Login,200,OK,Load Test 1-70,text,true,,579,242,34,34,http://localhost:3000/auth/login,946,0,0
+1775409568420,947,POST Login,200,OK,Load Test 1-97,text,true,,579,242,34,34,http://localhost:3000/auth/login,947,0,0
+1775409569367,5,GET Products,200,OK,Load Test 1-70,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569368,5,GET Products,200,OK,Load Test 1-97,text,true,,5635,140,34,34,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569373,5,POST Create Product,200,OK,Load Test 1-70,text,true,,5635,482,34,34,http://localhost:3000/products,5,0,0
+1775409569374,5,POST Create Product,200,OK,Load Test 1-97,text,true,,5635,482,33,33,http://localhost:3000/products,5,0,0
+1775409568442,987,POST Login,200,OK,Load Test 1-82,text,true,,579,242,33,33,http://localhost:3000/auth/login,987,0,0
+1775409568502,928,POST Login,200,OK,Load Test 1-98,text,true,,579,242,33,33,http://localhost:3000/auth/login,928,0,0
+1775409569429,5,GET Products,200,OK,Load Test 1-82,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569430,5,GET Products,200,OK,Load Test 1-98,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569435,6,POST Create Product,200,OK,Load Test 1-82,text,true,,5635,482,33,33,http://localhost:3000/products,6,0,0
+1775409569436,6,POST Create Product,200,OK,Load Test 1-98,text,true,,5635,482,33,33,http://localhost:3000/products,6,0,0
+1775409568587,866,POST Login,200,OK,Load Test 1-83,text,true,,579,242,33,33,http://localhost:3000/auth/login,866,0,0
+1775409568509,947,POST Login,200,OK,Load Test 1-71,text,true,,579,242,33,33,http://localhost:3000/auth/login,947,0,0
+1775409569453,6,GET Products,200,OK,Load Test 1-83,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569456,6,GET Products,200,OK,Load Test 1-71,text,true,,5635,140,33,33,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569459,10,POST Create Product,200,OK,Load Test 1-83,text,true,,5635,482,33,33,http://localhost:3000/products,10,0,0
+1775409569462,9,POST Create Product,200,OK,Load Test 1-71,text,true,,5635,482,33,33,http://localhost:3000/products,9,0,0
+1775409568588,931,POST Login,200,OK,Load Test 1-99,text,true,,579,242,32,32,http://localhost:3000/auth/login,931,0,0
+1775409568623,897,POST Login,200,OK,Load Test 1-72,text,true,,579,242,32,32,http://localhost:3000/auth/login,897,0,0
+1775409569519,6,GET Products,200,OK,Load Test 1-99,text,true,,5635,140,32,32,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569520,6,GET Products,200,OK,Load Test 1-72,text,true,,5635,140,32,32,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569525,6,POST Create Product,200,OK,Load Test 1-99,text,true,,5635,482,32,32,http://localhost:3000/products,6,0,0
+1775409569526,6,POST Create Product,200,OK,Load Test 1-72,text,true,,5635,482,32,32,http://localhost:3000/products,6,0,0
+1775409568675,867,POST Login,200,OK,Load Test 1-84,text,true,,579,242,31,31,http://localhost:3000/auth/login,867,0,0
+1775409568679,867,POST Login,200,OK,Load Test 1-100,text,true,,579,242,31,31,http://localhost:3000/auth/login,867,0,0
+1775409569543,6,GET Products,200,OK,Load Test 1-84,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569546,7,GET Products,200,OK,Load Test 1-100,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569549,6,POST Create Product,200,OK,Load Test 1-84,text,true,,5635,482,31,31,http://localhost:3000/products,5,0,0
+1775409569554,5,POST Create Product,200,OK,Load Test 1-100,text,true,,5635,482,31,31,http://localhost:3000/products,5,0,0
+1775409568680,927,POST Login,200,OK,Load Test 1-85,text,true,,579,242,31,31,http://localhost:3000/auth/login,927,0,0
+1775409568710,902,POST Login,200,OK,Load Test 1-73,text,true,,579,242,31,31,http://localhost:3000/auth/login,902,0,0
+1775409569608,6,GET Products,200,OK,Load Test 1-85,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569613,5,GET Products,200,OK,Load Test 1-73,text,true,,5635,140,31,31,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569614,5,POST Create Product,200,OK,Load Test 1-85,text,true,,5635,482,31,31,http://localhost:3000/products,5,0,0
+1775409569618,9,POST Create Product,200,OK,Load Test 1-73,text,true,,5635,482,31,31,http://localhost:3000/products,9,0,0
+1775409568779,854,POST Login,200,OK,Load Test 1-86,text,true,,579,242,30,30,http://localhost:3000/auth/login,854,0,0
+1775409568778,858,POST Login,200,OK,Load Test 1-74,text,true,,579,242,30,30,http://localhost:3000/auth/login,858,0,0
+1775409569633,7,GET Products,200,OK,Load Test 1-86,text,true,,5635,140,30,30,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569636,6,GET Products,200,OK,Load Test 1-74,text,true,,5635,140,30,30,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569640,7,POST Create Product,200,OK,Load Test 1-86,text,true,,5635,482,30,30,http://localhost:3000/products,7,0,0
+1775409569642,5,POST Create Product,200,OK,Load Test 1-74,text,true,,5635,482,30,30,http://localhost:3000/products,5,0,0
+1775409568808,891,POST Login,200,OK,Load Test 1-87,text,true,,579,242,29,29,http://localhost:3000/auth/login,891,0,0
+1775409568913,791,POST Login,200,OK,Load Test 1-75,text,true,,579,242,29,29,http://localhost:3000/auth/login,791,0,0
+1775409569700,6,GET Products,200,OK,Load Test 1-87,text,true,,5635,140,29,29,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569705,5,GET Products,200,OK,Load Test 1-75,text,true,,5635,140,29,29,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569706,5,POST Create Product,200,OK,Load Test 1-87,text,true,,5635,482,29,29,http://localhost:3000/products,5,0,0
+1775409569710,7,POST Create Product,200,OK,Load Test 1-75,text,true,,5635,482,29,29,http://localhost:3000/products,7,0,0
+1775409568919,804,POST Login,200,OK,Load Test 1-88,text,true,,579,242,28,28,http://localhost:3000/auth/login,804,0,0
+1775409568939,787,POST Login,200,OK,Load Test 1-89,text,true,,579,242,28,28,http://localhost:3000/auth/login,787,0,0
+1775409569724,6,GET Products,200,OK,Load Test 1-88,text,true,,5635,140,28,28,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569727,7,GET Products,200,OK,Load Test 1-89,text,true,,5635,140,28,28,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569730,6,POST Create Product,200,OK,Load Test 1-88,text,true,,5635,482,28,28,http://localhost:3000/products,6,0,0
+1775409569734,7,POST Create Product,200,OK,Load Test 1-89,text,true,,5635,482,28,28,http://localhost:3000/products,7,0,0
+1775409568987,804,POST Login,200,OK,Load Test 1-90,text,true,,579,242,28,28,http://localhost:3000/auth/login,804,0,0
+1775409569022,773,POST Login,200,OK,Load Test 1-76,text,true,,579,242,28,28,http://localhost:3000/auth/login,773,0,0
+1775409569791,8,GET Products,200,OK,Load Test 1-90,text,true,,5635,140,28,28,http://localhost:3000/products?page=1&limit=10,8,0,0
+1775409569795,7,GET Products,200,OK,Load Test 1-76,text,true,,5635,140,28,28,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569799,6,POST Create Product,200,OK,Load Test 1-90,text,true,,5635,482,28,28,http://localhost:3000/products,6,0,0
+1775409569802,8,POST Create Product,200,OK,Load Test 1-76,text,true,,5635,482,28,28,http://localhost:3000/products,8,0,0
+1775409569079,735,POST Login,200,OK,Load Test 1-91,text,true,,579,242,27,27,http://localhost:3000/auth/login,735,0,0
+1775409569025,792,POST Login,200,OK,Load Test 1-29,text,true,,579,242,27,27,http://localhost:3000/auth/login,792,0,0
+1775409569815,6,GET Products,200,OK,Load Test 1-91,text,true,,5635,140,27,27,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569817,5,GET Products,200,OK,Load Test 1-29,text,true,,5635,140,27,27,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569821,6,POST Create Product,200,OK,Load Test 1-91,text,true,,5635,482,27,27,http://localhost:3000/products,6,0,0
+1775409569822,6,POST Create Product,200,OK,Load Test 1-29,text,true,,5635,482,27,27,http://localhost:3000/products,6,0,0
+1775409569101,777,POST Login,200,OK,Load Test 1-77,text,true,,579,242,27,27,http://localhost:3000/auth/login,777,0,0
+1775409569878,6,GET Products,200,OK,Load Test 1-77,text,true,,5635,140,27,27,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569111,774,POST Login,200,OK,Load Test 1-92,text,true,,579,242,27,27,http://localhost:3000/auth/login,773,0,0
+1775409569884,6,POST Create Product,200,OK,Load Test 1-77,text,true,,5635,482,27,27,http://localhost:3000/products,6,0,0
+1775409569885,7,GET Products,200,OK,Load Test 1-92,text,true,,5635,140,26,26,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409569892,6,POST Create Product,200,OK,Load Test 1-92,text,true,,5635,482,26,26,http://localhost:3000/products,6,0,0
+1775409569170,736,POST Login,200,OK,Load Test 1-93,text,true,,579,242,26,26,http://localhost:3000/auth/login,736,0,0
+1775409569201,706,POST Login,200,OK,Load Test 1-94,text,true,,579,242,26,26,http://localhost:3000/auth/login,706,0,0
+1775409569906,5,GET Products,200,OK,Load Test 1-93,text,true,,5635,140,26,26,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569907,5,GET Products,200,OK,Load Test 1-94,text,true,,5635,140,26,26,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409569911,6,POST Create Product,200,OK,Load Test 1-93,text,true,,5635,482,26,26,http://localhost:3000/products,6,0,0
+1775409569912,6,POST Create Product,200,OK,Load Test 1-94,text,true,,5635,482,26,26,http://localhost:3000/products,6,0,0
+1775409569264,701,POST Login,200,OK,Load Test 1-79,text,true,,579,242,26,26,http://localhost:3000/auth/login,701,0,0
+1775409569966,6,GET Products,200,OK,Load Test 1-79,text,true,,5635,140,26,26,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569264,708,POST Login,200,OK,Load Test 1-95,text,true,,579,242,26,26,http://localhost:3000/auth/login,708,0,0
+1775409569972,6,POST Create Product,200,OK,Load Test 1-79,text,true,,5635,482,26,26,http://localhost:3000/products,6,0,0
+1775409569973,6,GET Products,200,OK,Load Test 1-95,text,true,,5635,140,25,25,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409569979,5,POST Create Product,200,OK,Load Test 1-95,text,true,,5635,482,25,25,http://localhost:3000/products,5,0,0
+1775409569292,703,POST Login,200,OK,Load Test 1-80,text,true,,579,242,25,25,http://localhost:3000/auth/login,703,0,0
+1775409569353,646,POST Login,200,OK,Load Test 1-96,text,true,,579,242,25,25,http://localhost:3000/auth/login,646,0,0
+1775409569999,10,GET Products,200,OK,Load Test 1-96,text,true,,5635,140,25,25,http://localhost:3000/products?page=1&limit=10,10,0,0
+1775409569995,15,GET Products,200,OK,Load Test 1-80,text,true,,5635,140,25,25,http://localhost:3000/products?page=1&limit=10,15,0,0
+1775409570013,8,POST Create Product,200,OK,Load Test 1-96,text,true,,5635,482,25,25,http://localhost:3000/products,8,0,0
+1775409570010,14,POST Create Product,200,OK,Load Test 1-80,text,true,,5635,482,25,25,http://localhost:3000/products,14,0,0
+1775409569354,707,POST Login,200,OK,Load Test 1-81,text,true,,579,242,24,24,http://localhost:3000/auth/login,707,0,0
+1775409569379,685,POST Login,200,OK,Load Test 1-97,text,true,,579,242,24,24,http://localhost:3000/auth/login,685,0,0
+1775409570061,7,GET Products,200,OK,Load Test 1-81,text,true,,5635,140,24,24,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570064,7,GET Products,200,OK,Load Test 1-97,text,true,,5635,140,24,24,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570068,8,POST Create Product,200,OK,Load Test 1-81,text,true,,5635,482,24,24,http://localhost:3000/products,8,0,0
+1775409570071,6,POST Create Product,200,OK,Load Test 1-97,text,true,,5635,482,23,23,http://localhost:3000/products,6,0,0
+1775409569441,649,POST Login,200,OK,Load Test 1-82,text,true,,579,242,23,23,http://localhost:3000/auth/login,649,0,0
+1775409569442,650,POST Login,200,OK,Load Test 1-98,text,true,,579,242,23,23,http://localhost:3000/auth/login,650,0,0
+1775409570090,7,GET Products,200,OK,Load Test 1-82,text,true,,5635,140,23,23,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570092,6,GET Products,200,OK,Load Test 1-98,text,true,,5635,140,23,23,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570097,6,POST Create Product,200,OK,Load Test 1-82,text,true,,5635,482,23,23,http://localhost:3000/products,6,0,0
+1775409570098,6,POST Create Product,200,OK,Load Test 1-98,text,true,,5635,482,22,22,http://localhost:3000/products,6,0,0
+1775409569469,684,POST Login,200,OK,Load Test 1-83,text,true,,579,242,22,22,http://localhost:3000/auth/login,684,0,0
+1775409569531,627,POST Login,200,OK,Load Test 1-99,text,true,,579,242,22,22,http://localhost:3000/auth/login,627,0,0
+1775409570153,6,GET Products,200,OK,Load Test 1-83,text,true,,5635,140,22,22,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570158,7,GET Products,200,OK,Load Test 1-99,text,true,,5635,140,22,22,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570159,6,POST Create Product,200,OK,Load Test 1-83,text,true,,5635,482,22,22,http://localhost:3000/products,6,0,0
+1775409570165,6,POST Create Product,200,OK,Load Test 1-99,text,true,,5635,482,21,21,http://localhost:3000/products,6,0,0
+1775409569555,625,POST Login,200,OK,Load Test 1-84,text,true,,579,242,21,21,http://localhost:3000/auth/login,625,0,0
+1775409569559,623,POST Login,200,OK,Load Test 1-100,text,true,,579,242,21,21,http://localhost:3000/auth/login,623,0,0
+1775409570180,6,GET Products,200,OK,Load Test 1-84,text,true,,5635,140,21,21,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570182,5,GET Products,200,OK,Load Test 1-100,text,true,,5635,140,21,21,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570186,6,POST Create Product,200,OK,Load Test 1-84,text,true,,5635,482,21,21,http://localhost:3000/products,6,0,0
+1775409570187,6,POST Create Product,200,OK,Load Test 1-100,text,true,,5635,482,20,20,http://localhost:3000/products,6,0,0
+1775409569647,599,POST Login,200,OK,Load Test 1-86,text,true,,579,242,20,20,http://localhost:3000/auth/login,599,0,0
+1775409569619,628,POST Login,200,OK,Load Test 1-85,text,true,,579,242,20,20,http://localhost:3000/auth/login,628,0,0
+1775409570246,6,GET Products,200,OK,Load Test 1-86,text,true,,5635,140,20,20,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570247,6,GET Products,200,OK,Load Test 1-85,text,true,,5635,140,20,20,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570252,5,POST Create Product,200,OK,Load Test 1-86,text,true,,5635,482,20,20,http://localhost:3000/products,5,0,0
+1775409570253,5,POST Create Product,200,OK,Load Test 1-85,text,true,,5635,482,19,19,http://localhost:3000/products,5,0,0
+1775409569736,534,POST Login,200,OK,Load Test 1-88,text,true,,579,242,18,18,http://localhost:3000/auth/login,534,0,0
+1775409569711,559,POST Login,200,OK,Load Test 1-87,text,true,,579,242,18,18,http://localhost:3000/auth/login,559,0,0
+1775409570270,5,GET Products,200,OK,Load Test 1-88,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570270,6,GET Products,200,OK,Load Test 1-87,text,true,,5635,140,18,18,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570276,5,POST Create Product,200,OK,Load Test 1-88,text,true,,5635,482,18,18,http://localhost:3000/products,5,0,0
+1775409570276,6,POST Create Product,200,OK,Load Test 1-87,text,true,,5635,482,17,17,http://localhost:3000/products,6,0,0
+1775409569805,536,POST Login,200,OK,Load Test 1-90,text,true,,579,242,16,16,http://localhost:3000/auth/login,536,0,0
+1775409569741,602,POST Login,200,OK,Load Test 1-89,text,true,,579,242,16,16,http://localhost:3000/auth/login,602,0,0
+1775409570341,6,GET Products,200,OK,Load Test 1-90,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570343,5,GET Products,200,OK,Load Test 1-89,text,true,,5635,140,16,16,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570347,5,POST Create Product,200,OK,Load Test 1-90,text,true,,5635,482,16,16,http://localhost:3000/products,5,0,0
+1775409570348,5,POST Create Product,200,OK,Load Test 1-89,text,true,,5635,482,15,15,http://localhost:3000/products,5,0,0
+1775409569827,531,POST Login,200,OK,Load Test 1-91,text,true,,579,242,14,14,http://localhost:3000/auth/login,531,0,0
+1775409569828,534,POST Login,200,OK,Load Test 1-29,text,true,,579,242,14,14,http://localhost:3000/auth/login,534,0,0
+1775409570359,4,GET Products,200,OK,Load Test 1-91,text,true,,5635,140,14,14,http://localhost:3000/products?page=1&limit=10,4,0,0
+1775409570363,5,GET Products,200,OK,Load Test 1-29,text,true,,5635,140,14,14,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570364,5,POST Create Product,200,OK,Load Test 1-91,text,true,,5635,482,14,14,http://localhost:3000/products,5,0,0
+1775409570368,5,POST Create Product,200,OK,Load Test 1-29,text,true,,5635,482,13,13,http://localhost:3000/products,5,0,0
+1775409569898,531,POST Login,200,OK,Load Test 1-92,text,true,,579,242,13,13,http://localhost:3000/auth/login,531,0,0
+1775409569917,512,POST Login,200,OK,Load Test 1-93,text,true,,579,242,13,13,http://localhost:3000/auth/login,512,0,0
+1775409570429,6,GET Products,200,OK,Load Test 1-92,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570429,7,GET Products,200,OK,Load Test 1-93,text,true,,5635,140,13,13,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570435,5,POST Create Product,200,OK,Load Test 1-92,text,true,,5635,482,13,13,http://localhost:3000/products,5,0,0
+1775409570436,6,POST Create Product,200,OK,Load Test 1-93,text,true,,5635,482,12,12,http://localhost:3000/products,5,0,0
+1775409569984,464,POST Login,200,OK,Load Test 1-95,text,true,,579,242,11,11,http://localhost:3000/auth/login,464,0,0
+1775409569918,531,POST Login,200,OK,Load Test 1-94,text,true,,579,242,11,11,http://localhost:3000/auth/login,531,0,0
+1775409570449,5,GET Products,200,OK,Load Test 1-95,text,true,,5635,140,11,11,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570449,7,GET Products,200,OK,Load Test 1-94,text,true,,5635,140,11,11,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570455,6,POST Create Product,200,OK,Load Test 1-95,text,true,,5635,482,11,11,http://localhost:3000/products,6,0,0
+1775409570456,6,POST Create Product,200,OK,Load Test 1-94,text,true,,5635,482,10,10,http://localhost:3000/products,6,0,0
+1775409563450,7015,GET Products,200,OK,Load Test 1-25,text,true,,5635,140,9,9,http://localhost:3000/products?page=1&limit=10,7015,0,0
+1775409570465,6,POST Create Product,200,OK,Load Test 1-25,text,true,,5635,482,9,9,http://localhost:3000/products,6,0,0
+1775409570021,494,POST Login,200,OK,Load Test 1-96,text,true,,579,242,8,8,http://localhost:3000/auth/login,494,0,0
+1775409570077,440,POST Login,200,OK,Load Test 1-97,text,true,,579,242,8,8,http://localhost:3000/auth/login,440,0,0
+1775409570515,7,GET Products,200,OK,Load Test 1-96,text,true,,5635,140,8,8,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570517,6,GET Products,200,OK,Load Test 1-97,text,true,,5635,140,8,8,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570522,6,POST Create Product,200,OK,Load Test 1-96,text,true,,5635,482,8,8,http://localhost:3000/products,6,0,0
+1775409570523,6,POST Create Product,200,OK,Load Test 1-97,text,true,,5635,482,7,7,http://localhost:3000/products,6,0,0
+1775409570104,432,POST Login,200,OK,Load Test 1-98,text,true,,579,242,6,6,http://localhost:3000/auth/login,432,0,0
+1775409570171,369,POST Login,200,OK,Load Test 1-99,text,true,,579,242,6,6,http://localhost:3000/auth/login,369,0,0
+1775409570536,6,GET Products,200,OK,Load Test 1-98,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570540,7,GET Products,200,OK,Load Test 1-99,text,true,,5635,140,6,6,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409570543,5,POST Create Product,200,OK,Load Test 1-98,text,true,,5635,482,6,6,http://localhost:3000/products,5,0,0
+1775409564255,6297,GET Products,200,OK,Load Test 1-36,text,true,,5635,140,5,5,http://localhost:3000/products?page=1&limit=10,6297,0,0
+1775409570547,6,POST Create Product,200,OK,Load Test 1-99,text,true,,5635,482,5,5,http://localhost:3000/products,6,0,0
+1775409570552,5,POST Create Product,200,OK,Load Test 1-36,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409570193,413,POST Login,200,OK,Load Test 1-100,text,true,,579,242,4,4,http://localhost:3000/auth/login,413,0,0
+1775409570374,233,POST Login,200,OK,Load Test 1-29,text,true,,579,242,4,4,http://localhost:3000/auth/login,233,0,0
+1775409570607,4,GET Products,200,OK,Load Test 1-29,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,4,0,0
+1775409570606,6,GET Products,200,OK,Load Test 1-100,text,true,,5635,140,4,4,http://localhost:3000/products?page=1&limit=10,6,0,0
+1775409570612,5,POST Create Product,200,OK,Load Test 1-29,text,true,,5635,482,4,4,http://localhost:3000/products,5,0,0
+1775409570612,6,POST Create Product,200,OK,Load Test 1-100,text,true,,5635,482,3,3,http://localhost:3000/products,6,0,0
+1775409563540,7095,POST Login,200,OK,Load Test 1-78,text,true,,579,242,2,2,http://localhost:3000/auth/login,7095,0,1
+1775409570635,5,GET Products,200,OK,Load Test 1-78,text,true,,5635,140,2,2,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570640,5,POST Create Product,200,OK,Load Test 1-78,text,true,,5635,482,2,2,http://localhost:3000/products,5,0,0
+1775409570557,89,POST Login,200,OK,Load Test 1-36,text,true,,579,242,2,2,http://localhost:3000/auth/login,89,0,0
+1775409570646,5,GET Products,200,OK,Load Test 1-36,text,true,,5635,140,2,2,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570651,4,POST Create Product,200,OK,Load Test 1-36,text,true,,5635,482,2,2,http://localhost:3000/products,4,0,0
+1775409570645,84,POST Login,200,OK,Load Test 1-78,text,true,,579,242,1,1,http://localhost:3000/auth/login,84,0,0
+1775409570730,5,GET Products,200,OK,Load Test 1-78,text,true,,5635,140,1,1,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570736,4,POST Create Product,200,OK,Load Test 1-78,text,true,,5635,482,1,1,http://localhost:3000/products,4,0,0
+1775409570740,83,POST Login,200,OK,Load Test 1-78,text,true,,579,242,1,1,http://localhost:3000/auth/login,83,0,0
+1775409570823,5,GET Products,200,OK,Load Test 1-78,text,true,,5635,140,1,1,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570828,7,POST Create Product,200,OK,Load Test 1-78,text,true,,5635,482,1,1,http://localhost:3000/products,7,0,0
+1775409570835,79,POST Login,200,OK,Load Test 1-78,text,true,,579,242,1,1,http://localhost:3000/auth/login,79,0,0
+1775409570914,5,GET Products,200,OK,Load Test 1-78,text,true,,5635,140,1,1,http://localhost:3000/products?page=1&limit=10,5,0,0
+1775409570919,6,POST Create Product,200,OK,Load Test 1-78,text,true,,5635,482,1,1,http://localhost:3000/products,6,0,0
+1775409570925,77,POST Login,200,OK,Load Test 1-78,text,true,,579,242,1,1,http://localhost:3000/auth/login,77,0,0
+1775409571002,7,GET Products,200,OK,Load Test 1-78,text,true,,5635,140,1,1,http://localhost:3000/products?page=1&limit=10,7,0,0
+1775409571009,7,POST Create Product,200,OK,Load Test 1-78,text,true,,5635,482,1,1,http://localhost:3000/products,7,0,0
